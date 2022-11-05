@@ -90,8 +90,8 @@
 
 /datum/mil_branch/expeditionary_corps
 	name = "Surveyor Corps"
-	name_short = "NTSC"
-	email_domain = "dagon.nt.exp"
+	name_short = "IFSC"
+	email_domain = "independence.nt.exp"
 
 	rank_types = list(
 		/datum/mil_rank/ec/e3,
@@ -120,8 +120,8 @@
 
 /datum/mil_branch/fleet
 	name = "Fleet"
-	name_short = "NTF"
-	email_domain = "dagon.fleet.sec"
+	name_short = "IFF"
+	email_domain = "independence.fleet.sec"
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,
@@ -230,9 +230,9 @@
 	)
 
 /datum/mil_branch/solgov
-	name = "SolGov Employee"
-	name_short = "SCG"
-	email_domain = "dagon.exp"
+	name = "Independent Force Employee"
+	name_short = "IFE"
+	email_domain = "independence.exp"
 
 	rank_types = list(
 		/datum/mil_rank/sol/gov,

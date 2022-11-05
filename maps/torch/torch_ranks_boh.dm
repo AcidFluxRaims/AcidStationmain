@@ -130,8 +130,8 @@
 
 /datum/mil_branch/fleet
 	name = "Expeditionary Fleet"
-	name_short = "NTEF"
-	email_domain = "dagon.nt.exp"
+	name_short = "IFEF"
+	email_domain = "independence.if.exp"
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,
@@ -193,9 +193,9 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/marine_corps
-	name = "Solar Marine Corps"
-	name_short = "SMC"
-	email_domain = "dagon.oorah.mil"
+	name = "Independence Marine Corps"
+	name_short = "IMC"
+	email_domain = "independence.oorah.mil"
 
 // Uses SCG Army's uniforms, at least for now.
 	rank_types = list(
@@ -669,7 +669,7 @@
 /datum/mil_branch/private_security
 	name = "Security Company"
 	name_short = "Sec"
-	email_domain = "dagon.sec"
+	email_domain = "independence.sec"
 
 	rank_types = list(
 		/datum/mil_rank/private_security/pcrc,
@@ -704,7 +704,7 @@
 //The Gilgamesh Independent Armed Forces
 
 /datum/mil_branch/soviet
-	name = "Gilgamesh Independant Armed Forces"
+	name = "Gilgamesh Independent Armed Forces"
 	name_short = "GIAF"
 	email_domain = "dagon.ucg"
 

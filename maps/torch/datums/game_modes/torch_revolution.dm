@@ -30,6 +30,6 @@
 
 /datum/antagonist/loyalists/Initialize()
 	..()
-	welcome_text = "You are a hardliner of Nanotrasen. Convince people to support your employers cause."
-	faction_welcome = "Obey all instructions, follow the chain of command, and ensure no uprisers endanger the Dagon."
+	welcome_text = "You are a hardline anti-corporate agent of the Independence. Convince people to support the cause."
+	faction_welcome = "Obey all instructions, follow the chain of command, and ensure no uprisers endanger the Independence."
 	faction_descriptor = "[GLOB.using_map.company_name]"

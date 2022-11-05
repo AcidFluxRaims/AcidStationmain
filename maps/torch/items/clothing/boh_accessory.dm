@@ -33,10 +33,10 @@
 	badge_string = ""
 
 /obj/item/clothing/accessory/badge/solgov/tags/fleet
-	badge_string = "NTEF"
+	badge_string = "IFEF"
 
 /obj/item/clothing/accessory/badge/solgov/tags/marine
-	badge_string = "SMC"
+	badge_string = "IMC"
 
 // custom ribbon for loadout
 /obj/item/clothing/accessory/ribbon/solgov/custom

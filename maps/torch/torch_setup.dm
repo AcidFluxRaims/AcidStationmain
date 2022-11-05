@@ -5,21 +5,21 @@
 
 /datum/map/torch/get_map_info()
 	. = list()
-	. += "Congratulations on your employment aboard the NTSS (NanoTrasen Solarian Ship) Dagon."
+	. += "Congratulations on your employment, rescue, or refuge aboard the IFSS (Independent Force Star Ship) Independence."
 	. += "It is a Mako-class vessel outfitted with current medical, science, security, habitation, and leisure facilities. A detachment of marines are also stationed aboard to assist."
 	. += ""
-	. += "It is a re-commissioned science vessel revamped to be closer to a military vessel."
-	. += "Capable of responding both to deal with most minor insurrectionist threats in a rapid fashion as well as explore any 'forgotten' planets in these sectors."
+	. += "It is a re-commissioned science vessel revamped to be closer to a military vessel, and undergoing constant revamping to fit the vision of its new operators."
+	. += "Capable of responding both to deal with most minor insurrectionist threats in a rapid fashion as well as explore any 'forgotten' planets in these sectors while establishing rapport with locals."
 	. += ""
-	. += "The ship plays host to a considerable variety of individuals, though the assignment is less than glorious."
-	. += "A mission exploring uncharted, forgotten areas of space with little oversight, but even less chance for assistance should things go awry."
-	. += "The core of captains have taken the ship into a state of subtle insubordination. NanoTrasen has little knowledge and no presence."
+	. += "The ship plays host to a considerable variety of individuals, though the assignment is less than glorious. Most, if not all crew are cast-offs of NT and its allies."
+	. += "A mission exploring uncharted, forgotten areas of space now free of SolGov and NT, the main objective is survival and success."
+	. += "After being consigned to an ignomious, anonymous death, the crew and core of captains have taken full control of the vessel, no longer bound by SolGov or NT laws or restrictions."
 	. += ""
 	. += "Adjust your expectations and outlook accordingly, crew."
 	return jointext(., "<br>")
 
 /datum/map/torch/send_welcome()
-	var/welcome_text = "<center><img src = bluentlogo.png /><br /><font size = 3><b>NTSS Dagon</b> Sensor Readings:</font><br>"
+	var/welcome_text = "<center><img src = bluentlogo.png /><br /><font size = 3><b>IFSS Independence</b> Sensor Readings:</font><br>"
 	welcome_text += "Report generated on [stationdate2text()] at [stationtime2text()]</center><br /><br />"
 	welcome_text += "<hr>Current system:<br /><b>[system_name()]</b><br /><br>"
 
@@ -60,5 +60,5 @@
 		welcome_text += "<br>No distress calls logged.<br />"
 	welcome_text += "<hr>"
 
-	post_comm_message("NTSS Dagon Sensor Readings", welcome_text)
+	post_comm_message("IFSS Independence Sensor Readings", welcome_text)
 	minor_announcement.Announce(message = "New [GLOB.using_map.company_name] Update available at all communication consoles.")

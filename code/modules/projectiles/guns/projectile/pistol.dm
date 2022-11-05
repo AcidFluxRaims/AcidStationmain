@@ -86,7 +86,7 @@
 
 /obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar
 	name = "Eagle"
-	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security Aboard the NTSS Dagon' engraved"
+	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security Aboard the IFSS Independence' engraved"
 	magazine_type = /obj/item/ammo_magazine/magnum/rubber
 	starts_loaded = 1
 

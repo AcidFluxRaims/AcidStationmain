@@ -535,10 +535,10 @@
 	icon_state = "shuttle3"
 	base_turf = /turf/simulated/open
 
-/area/turbolift/robotics_lift	
-	name = "\improper Robotics Lift"	
-	icon_state = "shuttle3"	
-	base_turf = /turf/simulated/open	
+/area/turbolift/robotics_lift
+	name = "\improper Robotics Lift"
+	icon_state = "shuttle3"
+	base_turf = /turf/simulated/open
 
 //Merchant
 
@@ -1174,7 +1174,7 @@
 // Command
 
 /area/bridge
-	name = "\improper NTSS Dagon Bridge"
+	name = "\improper IFSS Independence Bridge"
 	icon_state = "bridge"
 	req_access = list(access_bridge)
 
@@ -1487,7 +1487,7 @@
 	name = "\improper Robotics Lab"
 	icon_state = "robotics"
 
-/area/assembly/robotics/lower	
+/area/assembly/robotics/lower
 	name = "\improper Lower Robotics Lab"
 
 /area/assembly/robotics/surgery

@@ -246,7 +246,7 @@
 //combat shotgun
 /obj/item/weapon/gun/projectile/shotgun/pump/combat/infantry
 	desc = "Built for close quarters combat, the Hephaestus Industries KS-40 is widely regarded as a weapon of choice for repelling boarders. \
-	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Dagon."
+	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Independence."
 	authorized_modes = list(UNAUTHORIZED)
 
 /////////
@@ -296,7 +296,7 @@
 /obj/item/weapon/gun/projectile/automatic/l6_saw/sec
 	name = "L7 SAW"
 	desc = "A rather traditionally made L7 SAW with a pleasantly lacquered wooden pistol grip. Has 'Aussec Armoury- 2561' engraved on the reciever. \
-	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Dagon."
+	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Independence."
 	authorized_modes = list(UNAUTHORIZED)
 	firemodes = list(
 		list(mode_name="semi auto", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=6, burst_accuracy=null, dispersion=null),

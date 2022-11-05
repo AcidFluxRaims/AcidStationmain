@@ -1,4 +1,4 @@
-/var/server_name = "AcidStation - Heavy RP, Hestia modified"
+/var/server_name = "AcidStation - Heavy/Full-Time RP"
 
 /var/game_id = null
 /hook/global_init/proc/generate_gameid()

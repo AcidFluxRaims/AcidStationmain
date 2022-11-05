@@ -75,8 +75,8 @@ medals
 	return check_codex_val || ..()
 
 /obj/item/clothing/accessory/solgov/torch_patch
-	name = "\improper NTSS Dagon mission patch"
-	desc = "A fire resistant shoulder patch, worn by the personnel involved in the Dagon Project."
+	name = "\improper IFSS mission patch"
+	desc = "A fire resistant shoulder patch, worn by the personnel involved in the IFSS Independence conversion."
 	icon_state = "torchpatch"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
@@ -89,7 +89,7 @@ patches
 *****/
 /obj/item/clothing/accessory/solgov/ec_patch
 	name = "\improper Observatory patch"
-	desc = "A laminated shoulder patch, carrying the symbol of the NanoTrasen Surveyor Corps Observatory, or NTSCO for short, the eyes and ears of the Survey Corps' missions."
+	desc = "A laminated shoulder patch, carrying the symbol of the Independent Force Surveyor Corps Observatory, or IFSCO for short, the eyes and ears of the Survey Corps' missions."
 	icon_state = "ecpatch1"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
@@ -97,12 +97,12 @@ patches
 
 /obj/item/clothing/accessory/solgov/ec_patch/fieldops
 	name = "\improper Field Operations patch"
-	desc = "A radiation-shielded shoulder patch, carrying the symbol of the NanoTrasen Surveyor Corps Field Operations, or NTSCFO for short, the hands-on workers of every Survey Corps mission."
+	desc = "A radiation-shielded shoulder patch, carrying the symbol of the Independent Force Surveyor Corps Field Operations, or IFSCFO for short, the hands-on workers of every Survey Corps mission."
 	icon_state = "ecpatch2"
 
 /obj/item/clothing/accessory/solgov/cultex_patch
 	name = "\improper Cultural Exchange patch"
-	desc = "A radiation-shielded shoulder patch, denoting service in the the NanoTrasen Surveyor Corps Cultural Exchange program."
+	desc = "A radiation-shielded shoulder patch, denoting service in the the Independent Force Surveyor Corps Cultural Exchange program."
 	icon_state = "ecpatch3"
 	slot = ACCESSORY_SLOT_INSIGNIA
 	check_codex_val = FACTION_EXPEDITIONARY
