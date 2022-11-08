@@ -9,6 +9,10 @@
 
 	var/release_force = 0
 	var/throw_distance = 10
+	var/load_method = SINGLE_CASING|SPEEDLOADER //1 = Single shells, 2 = box or quick loader, 3 = magazine
+	var/allowed_magazines
+	var/mag_insert_sound = 'sound/weapons/guns/interaction/pistol_magin.ogg'
+	var/mag_remove_sound = 'sound/weapons/guns/interaction/pistol_magout.ogg'
 	fire_sound_text = "a launcher firing"
 
 //This normally uses a proc on projectiles and our ammo is not strictly speaking a projectile.

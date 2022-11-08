@@ -5,8 +5,8 @@
 	icon_state = "coilgun"
 	item_state = "coilgun"
 	wielded_item_state = "coilgun-wielded"
-	one_hand_penalty = 5
-	fire_delay = 20
+	one_hand_penalty = 20
+	fire_delay = 50
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 4, TECH_ESOTERIC = 2, TECH_MAGNET = 4)
 	w_class = ITEM_SIZE_LARGE
 	bulk = GUN_BULK_RIFLE
@@ -15,7 +15,7 @@
 	var/obj/item/weapon/cell/cell                              // Currently installed powercell.
 	var/obj/item/weapon/stock_parts/capacitor/capacitor        // Installed capacitor. Higher rating == faster charge between shots.
 	var/removable_components = TRUE                            // Whether or not the gun can be dismantled.
-	var/gun_unreliable = 15                                    // Percentage chance of detonating in your hands.
+	var/gun_unreliable = 50                                    // Percentage chance of detonating in your hands.
 
 	var/obj/item/loaded                                        // Currently loaded object, for retrieval/unloading.
 	var/load_type = /obj/item/stack/material/rods                       // Type of stack to load with.

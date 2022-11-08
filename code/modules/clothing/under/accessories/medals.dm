@@ -34,7 +34,7 @@
 
 /obj/item/clothing/accessory/medal/gold/nanotrasen
 	name = "corporate command medal"
-	desc = "A gold medal awarded to employees for service as the Captain of a corporate facility, station, or vessel."
+	desc = "A gold medal awarded to employees for service as the Captain of an NT corporate facility, station, or vessel."
 	icon_state = "gold_nt"
 
 /obj/item/clothing/accessory/medal/silver/nanotrasen

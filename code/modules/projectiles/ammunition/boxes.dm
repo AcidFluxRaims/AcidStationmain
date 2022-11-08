@@ -363,7 +363,6 @@
 	ammo_type = /obj/item/ammo_casing/shell
 	max_ammo = 30
 
-
 /obj/item/ammo_magazine/box/lewisgun
 	name = "Lewis Gun magazine"
 	icon = 'icons/obj/guns/ww1equipment.dmi'

@@ -8,12 +8,12 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "company officials and Corporate Regulations"
+	supervisors = "Your own damn self and the rest of the crew."
 	selection_color = "#1d1d4f"
 	req_admin_notify = 1
 	access = list() 			//See get_access()
 	minimal_access = list() 	//See get_access()
-	minimal_player_age = 14
+	minimal_player_age = 30
 	economic_power = 20
 
 	ideal_character_age = 50 // NO old geezer captains ftw

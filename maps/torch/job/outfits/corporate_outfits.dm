@@ -3,7 +3,7 @@
 	l_ear = /obj/item/device/radio/headset/torchnanotrasen
 
 /decl/hierarchy/outfit/job/torch/passenger/research/nt_pilot //pending better uniform
-	name = OUTFIT_JOB_NAME("Corporate Pilot")
+	name = OUTFIT_JOB_NAME("Independent Pilot")
 	uniform = /obj/item/clothing/under/rank/ntpilot
 	suit = /obj/item/clothing/suit/storage/toggle/brown_jacket/nanotrasen
 	shoes = /obj/item/clothing/shoes/workboots

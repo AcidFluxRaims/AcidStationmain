@@ -22,19 +22,19 @@
 /var/const/access_aquila = "ACCESS_TORCH_AQUILA" //78
 /datum/access/aquila
 	id = access_aquila
-	desc = "NTSC Byakhee"
+	desc = "IFSC Byakhee"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_aquila_helm = "ACCESS_TORCH_AQUILA_HELM" //79
 /datum/access/aquila_helm
 	id = access_aquila_helm
-	desc = "NTSC Byakhee Helm"
+	desc = "IFSC Byakhee Helm"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_solgov_crew = "ACCESS_TORCH_CREW" //80
 /datum/access/solgov_crew
 	id = access_solgov_crew
-	desc = "NanoTrasen Crew"
+	desc = "Independent Crew"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_nanotrasen = "ACCESS_TORCH_CORP" //81
@@ -60,14 +60,14 @@
 	id = access_liaison
 	desc = "Corporate Liaison"
 	region = ACCESS_REGION_COMMAND
-	access_type = ACCESS_TYPE_NONE //Ruler of their own domain, CO and RD cannot enter
+	//Ruler of their own domain, CO and RD cannot enter
 
 /var/const/access_representative = "ACCESS_TORCH_REPRESENTATIVE" //85
 /datum/access/representative
 	id = access_representative
 	desc = "SolGov Representative"
 	region = ACCESS_REGION_COMMAND
-	access_type = ACCESS_TYPE_NONE //Ruler of their own domain, CO cannot enter
+	//Ruler of their own domain, CO cannot enter
 
 /var/const/access_sec_guard = "ACCESS_TORCH_SECURITY_GUARD" //86
 /datum/access/sec_guard

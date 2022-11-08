@@ -77,7 +77,7 @@
 	department_flag = SUP
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Deck Officer, the Corporate Liaison"
+	supervisors = "the Deck Officer"
 	economic_power = 7
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	alt_titles = list(

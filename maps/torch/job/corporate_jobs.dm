@@ -1,19 +1,17 @@
 /datum/job/liaison
-	title = "Workplace Liaison"
+	title = "Inter-Department Liaison"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Corporate Regulations, the Union Charter, and the Surveyor Corps Organisation"
+	supervisors = "Ship Regulations, the Union Charter, and the Independence Command Staff"
 	selection_color = "#2f2f7f"
 	economic_power = 15
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 24)
 	alt_titles = list(
-		"Corporate Liaison",
+		"Dock Market Representative",
 		"Union Representative" = /decl/hierarchy/outfit/job/torch/passenger/workplace_liaison/union_rep,
-		"Corporate Representative",
-		"Corporate Executive"
 		)
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/workplace_liaison
 	allowed_branches = list(/datum/mil_branch/civilian)
@@ -30,7 +28,7 @@
 	software_on_spawn = list(/datum/computer_file/program/reports)
 
 /datum/job/liaison/get_description_blurb()
-	return "You are the Workplace Liaison. You are a civilian employee of NT, specifically the Surveyor Corps branch. You are on board the vessel to promote corporate interests and protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
+	return "You are the Inder-Department Liaison. You are a civilian employee of the Independence, specifically the Surveyor Corps branch. You are on board the vessel to promote free market interests and protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady capitalist shill you always wanted to be."
 
 /datum/job/liaison/post_equip_rank(var/mob/person, var/alt_title)
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Loss Prevention Associate")]"]"
@@ -41,15 +39,15 @@
 	..()
 
 /datum/job/bodyguard
-	title = "Loss Prevention Associate"
+	title = "Free Market Protector"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Workplace Liaison"
+	supervisors = "the Inter-Department Liaison and the Ship Command Staff"
 	selection_color = "#3d3d7f"
 	economic_power = 12
-	minimal_player_age = 2
+	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 21)
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/corporate_bodyguard
 	allowed_branches = list(/datum/mil_branch/civilian)
@@ -68,7 +66,7 @@
 		"Executive Assistant",
 		"Asset Protection Agent"
 	)
-	skill_points = 40
+	skill_points = 20
 	access = list(access_liaison, access_maint_tunnels, access_security, access_medical,
 						access_engine, access_research, access_bridge,
 						access_cargo, access_solgov_crew, access_hangar,
@@ -79,18 +77,18 @@
 /datum/job/bodyguard/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
-			if(M.client && M.mind && M.mind.assigned_role == "Workplace Liaison")
+			if(M.client && M.mind && M.mind.assigned_role == "Inter-Department Liaison")
 				return TRUE
 	return FALSE
 
 /datum/job/bodyguard/get_description_blurb()
-	return "You are the Loss Prevention Associate. You are an employee of NT, specifically the Surveyor Corps branch, and your job is to prevent the loss of the Liason's life - even at the cost of your own. Good luck."
+	return "You are the Free Market Protector. You are an employee of the Inter-Department Liaison, and your job is to prevent the loss of the Liason's life - even at the cost of your own. Good luck."
 
 /datum/job/bodyguard/post_equip_rank(var/mob/person, var/alt_title)
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Loss Prevention Associate")]"]"
 	for(var/mob/M in GLOB.player_list)
 		if(M.client && M.mind)
-			if(M.mind.assigned_role == "Workplace Liaison")
+			if(M.mind.assigned_role == "Inter-Department Liaison")
 				to_chat(M, SPAN_NOTICE("<b>Your bodyguard, [my_title] named [person.real_name], is present on [GLOB.using_map.full_name].</b>"))
 	..()
 
@@ -103,8 +101,8 @@
 	spawn_positions = 1
 	economic_power = 30
 	minimum_character_age = list(SPECIES_HUMAN = 25,SPECIES_UNATHI = 25,SPECIES_SERGAL = 25, SPECIES_SKRELL = 25, SPECIES_PROMETHEAN = 25, SPECIES_YEOSA = 25, SPECIES_VASS = 25, SPECIES_TAJ = 25, SPECIES_CUSTOM = 25, SPECIES_AKULA = 25)
-	minimal_player_age = 7
-	supervisors = "NTPC or the Foundation, neither secondary to the Commanding Officer"
+	minimal_player_age = 0
+	supervisors = "The Independence Command Staff"
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/psiadvisor
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/foundationadvisor)
@@ -127,7 +125,7 @@
 	)
 
 	alt_titles = list(
-		"Nanotrasen Psionic Operative" = /decl/hierarchy/outfit/job/torch/crew/command/psiadvisor/nt,
+		"Psionic Operative" = /decl/hierarchy/outfit/job/torch/crew/command/psiadvisor/nt,
 		"Foundation Agent")
 
 /datum/job/psiadvisor/equip(var/mob/living/carbon/human/H)
@@ -135,5 +133,5 @@
 	return ..()
 
 /datum/job/psiadvisor/get_description_blurb()
-	return "You are the Psionic Advisor, an agent of either the Foundation or Nanotrasen Psionic Corps. Alongside the Counselor, you're the only other individual with known and authorized Psionic abilities aboard the IFSS Independence. Your main responsibility is advising the Commanding Officer on psionic matters. \
+	return "You are the Psionic Advisor, an agent of either the Foundation or an independent Psionic Corps. Alongside the Counselor, you're the only other individual with known and authorized Psionic abilities aboard the IFSS Independence. Your main responsibility is advising the Commanding Officer on psionic matters. \
 	Secondly, you're to assist the crew or Research on psionic matters, or guide any newly emergent crew that awaken with psionic abilities."

@@ -7,7 +7,7 @@
 	head_position = 1
 	supervisors = "the Chief Science Officer"
 	selection_color = "#68099e"
-	minimal_player_age = 4
+	minimal_player_age = 0
 	economic_power = 7
 	minimum_character_age = list(SPECIES_HUMAN = 21)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder

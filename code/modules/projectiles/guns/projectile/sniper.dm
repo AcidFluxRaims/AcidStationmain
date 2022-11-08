@@ -122,7 +122,7 @@
 	caliber = CALIBER_ROCKET
 	screen_shake = 0 //screenshake breaks the scope.
 	handle_casings = CLEAR_CASINGS
-	load_method = MAGAZINE
+	load_method = MAGAZINE|SPEEDLOADER
 	magazine_type = /obj/item/ammo_magazine/rocket
 	allowed_magazines = /obj/item/ammo_magazine/rocket
 	max_shells = 20

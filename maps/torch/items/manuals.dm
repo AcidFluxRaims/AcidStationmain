@@ -85,7 +85,7 @@
 	..()
 	var/obj/effect/overmap/visitable/torch = map_sectors["[z]"]
 	var/memo = {"
-	<tt><center><b><font color='red'>SECRET - CODE WORDS: DAGON</font></b>
+	<tt><center><b><font color='red'>SECRET - CODE WORDS: DAGON - INTERCEPTED TRANSMISSION OF OBJECTIVES</font></b>
 	<h3>NANOTRASEN FLEET COMMAND</h3>
 	<img src = nteflogo.png>
 	</center>
@@ -128,7 +128,7 @@
 /obj/item/weapon/paper/umbra
 	name = "UMBRA Protocol"
 	info = {"
-	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: DAGON UMBRA</font></b>
+	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: DAGON UMBRA - INTERCEPTED TRANSMISSION</font></b>
 	<h3>OFFICE OF THE SECRETARY GENERAL OF THE NANOTRASEN PRIVATE FLEET</h3>
 	<img src = nteflogo.png
 	</center>

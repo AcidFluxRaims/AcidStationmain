@@ -8,7 +8,7 @@
 	supervisors = "the Chief Science Officer"
 	selection_color = "#633d63"
 	economic_power = 12
-	minimal_player_age = 3
+	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 30)
 	alt_titles = list(
 		"Research Supervisor")
@@ -87,7 +87,7 @@
 	spawn_positions = 2
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 25)
-	supervisors = "the Chief Science Officer and the Corporate Liaison."
+	supervisors = "the Chief Science Officer"
 	selection_color = "#633d63"
 	economic_power = 6
 	alt_titles = list(
@@ -125,7 +125,7 @@
 	minimal_access = list()
 
 /datum/job/roboticist/get_description_blurb()
-	return "You are the Roboticist. You are responsible for repairing, upgrading and handling ship synthetics (like robots). You are also responsible for the production of exosuits(mechs) and bots for various departments. You answer to the Corporate Liaison and the Chief Science Officer."
+	return "You are the Roboticist. You are responsible for repairing, upgrading and handling ship synthetics (like robots). You are also responsible for the production of exosuits(mechs) and bots for various departments. You answer to the Command Staff and the Chief Science Officer."
 
 /datum/job/scientist_assistant
 	title = "Research Assistant"

@@ -4,7 +4,7 @@
 
 /obj/structure/sign/dedicationplaque/Initialize()
 	. = ..()
-	desc = "NTSS Dagon - Mako Class System Surveyor - NTF Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [game_year-30] - Sol Central Government - 'Never was anything great achieved without danger.' - The plague has been cut cleanly down the middle."
+	desc = "NTSS Dagon - Mako Class System Surveyor - NTF Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [game_year-30] - Sol Central Government - 'Never was anything great achieved without danger.' - The plaque has been cut cleanly down the middle."
 
 /obj/structure/sign/ecplaque
 	name = "\improper Surveyor Corps Directives"
@@ -57,20 +57,20 @@
 	icon_state = "center"
 
 /obj/structure/sign/solgov
-	name = "\improper SolGov Seal"
-	desc = "A sign which signifies who this vessel was designed in line with. Not as useful, these days. SCG presence hasn't been a threat to pirates for a long time, not since the majority of their fleet was wiped out in their war against the UGC.."
+	name = "\improper Defaced SolGov Seal"
+	desc = "A sign which signifies who this vessel was designed in line with. Not as useful, these days. SCG presence hasn't been a threat to pirates for a long time, not since the majority of their fleet was wiped out in their war against the UGC. It has been cut cleanly down the middle."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 	icon_state = "solgovseal"
 
 /obj/structure/sign/ntcrest
-	name = "\improper NTEF Logo"
-	desc = "A crest that signifies this vessel is property of NanoTrasen's Expeditionary Fleet."
+	name = "\improper Defaced NTEF Logo"
+	desc = "A crest that signifies this vessel is property of NanoTrasen's Expeditionary Fleet. It has been cleanly cut down the middle."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 	icon_state = "ntefcrest"
 
 /obj/structure/sign/double/solgovflag
-	name = "Sol Central Government Flag"
-	desc = "The flag of the Sol Central Government. Defenders of democracy. Imperialists. Accepting of everyone. Strongly against synthetic rights. United. Crumbling from the inside. This flag means many things to many people."
+	name = "Dirty Sol Central Government Flag"
+	desc = "The flag of the Sol Central Government. Defenders of democracy. Imperialists. Accepting of everyone. Strongly against synthetic rights. United. Crumbling from the inside. This flag means many things to many people. This one has not seen maintenance in some time."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 
 /obj/structure/sign/double/solgovflag/left

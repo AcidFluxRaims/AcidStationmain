@@ -87,7 +87,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/passenger/workplace_liaison
-	name = OUTFIT_JOB_NAME("Workplace Liaison")
+	name = OUTFIT_JOB_NAME("Inter-Department Liaison")
 	l_ear = /obj/item/device/radio/headset/heads/torchntcommand
 	uniform = /obj/item/clothing/under/suit_jacket/corp
 	shoes = /obj/item/clothing/shoes/laceup
@@ -96,7 +96,7 @@
 	backpack_contents = list(/obj/item/clothing/accessory/badge/nanotrasen = 1)
 
 /decl/hierarchy/outfit/job/torch/passenger/corporate_bodyguard
-	name = OUTFIT_JOB_NAME("Loss Prevention Associate")
+	name = OUTFIT_JOB_NAME("Free Market Protector")
 	l_ear =    /obj/item/device/radio/headset/heads/torchntcommand
 	uniform =  /obj/item/clothing/under/suit_jacket/corp
 	shoes =    /obj/item/clothing/shoes/laceup

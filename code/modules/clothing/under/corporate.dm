@@ -48,7 +48,7 @@
 	item_state = "lb_suit"
 	worn_state = "work"
 	armor = list(
-		melee = ARMOR_MELEE_MINOR, 
+		melee = ARMOR_MELEE_MINOR,
 		bio = ARMOR_BIO_MINOR
 		)
 	item_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_under_corporate.dmi')
@@ -85,20 +85,20 @@
 //NanoTrasen
 /obj/item/clothing/under/rank/guard/nanotrasen
 	name = "red security guard uniform"
-	desc = "A durable uniform worn by subcontracted NanoTrasen security."
+	desc = "A durable uniform worn by former subcontracted NanoTrasen security, now employed by the Independence."
 	icon_state = "guard_nt"
 	worn_state = "guard_nt"
 
 /obj/item/clothing/under/rank/scientist/nanotrasen
 	name = "\improper NanoTrasen polo and pants"
-	desc = "A fashionable polo and pair of trousers belonging to NanoTrasen, a megacorporation primarily concerned with the research of new and dangerous technologies."
+	desc = "A fashionable polo and pair of trousers formerly belonging to NanoTrasen, a megacorporation primarily concerned with the research of new and dangerous technologies."
 	icon_state = "smock_nt"
 	worn_state = "smock_nt"
 	starting_accessories = list(/obj/item/clothing/accessory/tunic/nanotrasen)
 
 /obj/item/clothing/under/rank/scientist/executive/nanotrasen
 	name = "\improper NanoTrasen polo and pants"
-	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a NanoTrasen higher-up."
+	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a former NanoTrasen higher-up."
 	icon_state = "smockexec_nt"
 	worn_state = "smockexec_nt"
 	starting_accessories = list(/obj/item/clothing/accessory/tunic/exec/nanotrasen)
@@ -110,7 +110,7 @@
 
 /obj/item/clothing/under/rank/ntpilot/nanotrasen
 	name = "red flight suit"
-	desc = "A sleek red NanoTrasen flight suit. It proudly sports three different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect."
+	desc = "A sleek red ex-NanoTrasen flight suit. It proudly sports three different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect. The patches have been defaced."
 	icon_state = "pilot_nt"
 	item_state = "r_suit"
 	worn_state = "pilot_nt"
@@ -121,7 +121,7 @@
 
 /obj/item/clothing/under/suit_jacket/corp/nanotrasen
 	name = "\improper NanoTrasen executive suit"
-	desc = "A set of NanoTrasen-issued suit pants and shirt that particularly enthusiastic company executives tend to wear."
+	desc = "A set of former NanoTrasen-issued suit pants and shirt that particularly enthusiastic company executives tended to wear."
 	icon_state = "suit_nt"
 	worn_state = "suit_nt"
 	starting_accessories = list(/obj/item/clothing/accessory/toggleable/corpjacket/nanotrasen, /obj/item/clothing/accessory/corptie/nanotrasen)

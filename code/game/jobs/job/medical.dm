@@ -17,8 +17,8 @@
 			access_chemistry, access_virology, access_cmo, access_surgery, access_RC_announce,
 			access_keycard_auth, access_sec_doors, access_psychiatrist, access_eva, access_maint_tunnels, access_external_airlocks)
 
-	minimal_player_age = 14
-	ideal_character_age = 50
+	minimal_player_age = 3
+	ideal_character_age = 40
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 
 /datum/job/doctor
@@ -26,7 +26,7 @@
 	department = "Medical"
 	department_flag = MED
 
-	minimal_player_age = 3
+	minimal_player_age = 0
 	total_positions = 5
 	spawn_positions = 3
 	supervisors = "the chief medical officer"
@@ -47,7 +47,7 @@
 	department = "Medical"
 	department_flag = MED
 
-	minimal_player_age = 7
+	minimal_player_age = 2
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the chief medical officer"
@@ -64,7 +64,7 @@
 
 	total_positions = 0
 	spawn_positions = 0
-	minimal_player_age = 7
+	minimal_player_age = 2
 	supervisors = "the Chief Medical Officer and Chief Science Officer"
 	selection_color = "#013d3b"
 	economic_power = 7
@@ -80,7 +80,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	economic_power = 5
-	minimal_player_age = 3
+	minimal_player_age = 0
 	supervisors = "the chief medical officer"
 	selection_color = "#013d3b"
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_psychiatrist)
@@ -97,7 +97,7 @@
 	supervisors = "the chief medical officer"
 	selection_color = "#013d3b"
 	economic_power = 4
-	minimal_player_age = 7
+	minimal_player_age = 0
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_eva, access_maint_tunnels, access_external_airlocks, access_psychiatrist)
 	minimal_access = list(access_medical, access_medical_equip, access_morgue, access_eva, access_maint_tunnels, access_external_airlocks)
 	alt_titles = list("Emergency Medical Technician" = /decl/hierarchy/outfit/job/medical/paramedic/emt)

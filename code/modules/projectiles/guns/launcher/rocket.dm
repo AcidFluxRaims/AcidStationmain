@@ -56,6 +56,8 @@
 	w_class = ITEM_SIZE_HUGE
 	throw_speed = 2
 	throw_range = 10
+	load_method = MAGAZINE //1 = Single shells, 2 = box or quick loader, 3 = magazine
+	allowed_magazines = /obj/item/ammo_magazine/rocket
 	force = 5.0
 	obj_flags =  OBJ_FLAG_CONDUCTIBLE
 	slot_flags = 0

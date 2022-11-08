@@ -7,7 +7,7 @@
 	supervisors = "the Chief Engineer"
 	selection_color = "#5b4d20"
 	economic_power = 6
-	minimal_player_age = 3
+	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer
 	allowed_branches = list(

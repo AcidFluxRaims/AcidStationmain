@@ -335,7 +335,7 @@
 
 /obj/item/clothing/suit/storage/leather_jacket/nanotrasen
 	name = "\improper NanoTrasen black leather jacket"
-	desc = "A black leather coat. The NanoTrasen logo is proudly displayed on the back."
+	desc = "A black leather coat. The NanoTrasen logo is proudly displayed on the back. You are most likely going to be ridiculed wearing this on the ship."
 	icon_state = "leather_jacket_nt"
 
 //This one has buttons for some reason
@@ -349,14 +349,14 @@
 
 /obj/item/clothing/suit/storage/toggle/brown_jacket/nanotrasen
 	name = "\improper NanoTrasen leather jacket"
-	desc = "A brown leather coat. The NanoTrasen logo is proudly displayed on the back."
+	desc = "A brown leather coat. The NanoTrasen logo is proudly displayed on the back. You are most likely going to be ridiculed wearing this on the ship."
 	icon_state = "brown_jacket_nt"
 	icon_open = "brown_jacket_nt_open"
 	icon_closed = "brown_jacket_nt"
 
 /obj/item/clothing/suit/storage/toggle/agent_jacket
 	name = "agent jacket"
-	desc = "A black leather jacket belonging to an agent of the Sol Federal Police."
+	desc = "A black leather jacket formerly belonging to an agent of the Sol Federal Police."
 	icon_state = "agent_jacket"
 	icon_open = "agent_jacket_open"
 	icon_closed = "agent_jacket"
@@ -388,7 +388,7 @@
 
 /obj/item/clothing/suit/storage/toggle/hoodie/nt
 	name = "\improper NanoTrasen hoodie"
-	desc = "A warm, blue sweatshirt. It proudly bears the NanoTrasen logo on the back. The edges are trimmed with silver."
+	desc = "A warm, blue sweatshirt. It proudly bears the NanoTrasen logo on the back. The edges are trimmed with silver. You are most likely going to be ridiculed wearing this on the ship."
 	icon_state = "nt_hoodie"
 	icon_open = "nt_hoodie_open"
 	icon_closed = "nt_hoodie"
@@ -436,7 +436,7 @@
 
 /obj/item/clothing/suit/poncho/roles/science/nanotrasen
 	name = "\improper NanoTrasen poncho"
-	desc = "A simple, comfortable cloak without sleeves. This one is white with a few red stripes, colors of NanoTrasen. Go NanoTrasen!"
+	desc = "A simple, comfortable cloak without sleeves. This one is white with a few red stripes, colors of NanoTrasen. Go NanoTrasen! Not."
 	icon_state = "sciponcho_nt"
 
 /obj/item/clothing/suit/poncho/roles/cargo

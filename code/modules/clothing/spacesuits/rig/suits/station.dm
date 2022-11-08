@@ -87,7 +87,7 @@
 /obj/item/weapon/rig/eva
 	name = "EVA hardsuit control module"
 	suit_type = "EVA hardsuit"
-	desc = "A light rig for repairs and maintenance to the outside of habitats and vessels."
+	desc = "A light rig for repairs and maintenance to the outside of habitats and vessels. It has been significantly upgraded after-market."
 	icon_state = "eva_rig"
 	armor = list(
 		melee = ARMOR_MELEE_KNIVES,
@@ -165,7 +165,7 @@
 /obj/item/weapon/rig/ce
 	name = "advanced engineering hardsuit control module"
 	suit_type = "engineering hardsuit"
-	desc = "An advanced hardsuit that protects against hazardous, low pressure environments. Shines with a high polish. Appears compatible with the physiology of most species."
+	desc = "An advanced hardsuit that protects against hazardous, low pressure environments. Shines with a high polish. Appears compatible with the physiology of most species. It has been significantly upgraded after-market."
 	icon_state = "ce_rig"
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
@@ -211,7 +211,7 @@
 /obj/item/weapon/rig/hazmat
 	name = "\improper AMI control module"
 	suit_type = "hazmat hardsuit"
-	desc = "An Anomalous Material Interaction hardsuit, a cutting-edge NanoTrasen design, protects the wearer against the strangest energies the universe can throw at it."
+	desc = "An Anomalous Material Interaction hardsuit, a cutting-edge NanoTrasen design, protects the wearer against the strangest energies the universe can throw at it. It has been significantly upgraded after-market."
 	icon_state = "science_rig"
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
@@ -278,7 +278,7 @@
 /obj/item/weapon/rig/medical
 	name = "rescue suit control module"
 	suit_type = "rescue hardsuit"
-	desc = "A durable suit designed for medical rescue in high risk areas."
+	desc = "A durable suit designed for medical rescue in high risk areas. It has been significantly upgraded after-market."
 	icon_state = "medical_rig"
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
@@ -353,7 +353,7 @@
 /obj/item/weapon/rig/hazard
 	name = "hazard hardsuit control module"
 	suit_type = "hazard hardsuit"
-	desc = "A security hardsuit designed for prolonged EVA in dangerous environments."
+	desc = "A security hardsuit designed for prolonged EVA in dangerous environments. It has been significantly upgraded after-market."
 	icon_state = "hazard_rig"
 	armor = list(
 		melee = ARMOR_MELEE_VERY_HIGH,
@@ -402,7 +402,7 @@
 /obj/item/weapon/rig/zero
 	name = "null suit control module"
 	suit_type = "null hardsuit"
-	desc = "A very lightweight suit designed to allow use inside mechs and starfighters. It feels like you're wearing nothing at all."
+	desc = "A very lightweight suit designed to allow use inside mechs and starfighters. It feels like you're wearing nothing at all. "
 	icon_state = "null_rig"
 	armor = list(
 		bio = ARMOR_BIO_SHIELDED,

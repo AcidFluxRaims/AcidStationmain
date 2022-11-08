@@ -19,7 +19,7 @@
 			            access_forensics_lockers, access_morgue, access_maint_tunnels, access_all_personal_lockers,
 			            access_research, access_engine, access_mining, access_medical, access_construction, access_mailsorting,
 			            access_bridge, access_hos, access_RC_announce, access_keycard_auth, access_gateway, access_external_airlocks)
-	minimal_player_age = 14
+	minimal_player_age = 3
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 
 /datum/job/hos/equip(var/mob/living/carbon/human/H)
@@ -39,7 +39,7 @@
 	economic_power = 5
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_morgue, access_external_airlocks)
 	minimal_access = list(access_security, access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_external_airlocks)
-	minimal_player_age = 7
+	minimal_player_age = 1
 	outfit_type = /decl/hierarchy/outfit/job/security/warden
 
 /datum/job/detective
@@ -55,7 +55,7 @@
 	economic_power = 5
 	access = list(access_security, access_sec_doors, access_forensics_lockers, access_morgue, access_maint_tunnels, access_eva)
 	minimal_access = list(access_security, access_sec_doors, access_forensics_lockers, access_morgue, access_maint_tunnels, access_eva)
-	minimal_player_age = 7
+	minimal_player_age = 1
 	outfit_type = /decl/hierarchy/outfit/job/security/detective
 
 /datum/job/officer
@@ -71,7 +71,7 @@
 	economic_power = 4
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_morgue, access_external_airlocks)
 	minimal_access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_external_airlocks)
-	minimal_player_age = 7
+	minimal_player_age = 0
 	outfit_type = /decl/hierarchy/outfit/job/security/officer
 
 /datum/job/seccadet
@@ -111,7 +111,7 @@
 
 	supervisors = "the highest ranking Marine and SolGov Command"
 	selection_color = "#557e38"
-	minimal_player_age = 12
+	minimal_player_age = 2
 	economic_power = 7
 	skill_points = 24
 	minimum_character_age = list(SPECIES_HUMAN = 25)
@@ -140,7 +140,7 @@
 	spawn_positions = 1
 	selection_color = "#557e38"
 	economic_power = 4
-	minimal_player_age = 8
+	minimal_player_age = 1
 	skill_points = 24
 	minimum_character_age = list(SPECIES_HUMAN = 20)
 	min_skill = list(	SKILL_CONSTRUCTION = SKILL_ADEPT,
@@ -177,7 +177,7 @@
 	department_flag = INF
 	total_positions = 3
 	spawn_positions = 3
-	minimal_player_age = 6
+	minimal_player_age = 0
 	supervisors = "the Combat Technician and Squad Leader"
 	selection_color = "#557e38"
 	skill_points = 28

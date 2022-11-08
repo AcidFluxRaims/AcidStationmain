@@ -7,7 +7,7 @@
 
 /obj/item/device/radio/headset/heads/torchexec
 	name = "executive headset"
-	desc = "The headset of those brave men and women who command the IFSS Independence."
+	desc = "The headset of those brave individuals who command the IFSS Independence."
 	icon_state = "com_headset"
 	item_state = "headset"
 	ks1type = /obj/item/device/encryptionkey/heads/torchexec
@@ -19,7 +19,7 @@
 
 /obj/item/device/radio/headset/heads/torchcorp
 	name = "corporate headset"
-	desc = "Headset of the servants to the corporate overlords."
+	desc = "Headset of the former servants to the corporate overlords."
 	icon_state = "nt_headset"
 	item_state = "headset"
 	ks1type = /obj/item/device/encryptionkey/headset_torchcorp
@@ -31,7 +31,7 @@
 
 /obj/item/device/radio/headset/heads/torchntcommand
 	name = "corporate command headset"
-	desc = "Headset of the corporate overlords."
+	desc = "Headset of the former corporate overlords."
 	icon_state = "nt_headset"
 	item_state = "headset"
 	ks1type = /obj/item/device/encryptionkey/headset_torchcl

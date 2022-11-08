@@ -19,7 +19,7 @@
 
 /obj/item/clothing/accessory/tunic/nanotrasen
 	name = "\improper NanoTrasen tunic"
-	desc = "A fashionable tunic that NanoTrasen provides to their lab workers."
+	desc = "A fashionable tunic that NanoTrasen provided to their lab workers."
 	icon_state = "tunic_nt"
 
 /obj/item/clothing/accessory/tunic/heph

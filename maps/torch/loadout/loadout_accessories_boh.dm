@@ -20,7 +20,7 @@
 	//allowed_roles = SECURITY_ROLES
 
 /datum/gear/accessory/smc_patch
-	display_name = "Marine Corps patch"
+	display_name = "Modified Marine Corps patch"
 	path = /obj/item/clothing/accessory/solgov/smc_patch
 	//allowed_branches = list(/datum/mil_branch/marine_corps)
 	cost = 0
@@ -47,15 +47,15 @@
 	path = /obj/item/clothing/accessory/armor/tag/civ/med
 
 /datum/gear/accessory/tags/marine
-	display_name = "dog tags, solar marine corps"
+	display_name = "dog tags, independent marine corps"
 	description = "Plain identification tags made from a durable metal. This one is issued to marines."
 	path = /obj/item/clothing/accessory/badge/solgov/tags/marine
 	//allowed_branches = list(/datum/mil_branch/marine_corps)
 	cost = 0
 
 /datum/gear/accessory/tags/fleet
-	display_name = "dog tags, expeditionary fleet"
-	description = "Plain identification tags made from a durable metal. This one is issued to fleet."
+	display_name = "dog tags, IFSS Independence issue"
+	description = "Plain identification tags made from a durable metal. This one is issued to those aboard the Independence."
 	path = /obj/item/clothing/accessory/badge/solgov/tags/fleet
 	//allowed_branches = list(/datum/mil_branch/fleet)
 	cost = 0
@@ -86,11 +86,11 @@
 	//allowed_branches = SOLGOV_BRANCHES
 	cost = 0 // Uniformed branches would require one.
 
-/datum/gear/tactical/nt
-	display_name = "NanoTrasen tag"
-	path = /obj/item/clothing/accessory/armor/tag/nt/dagon
+///datum/gear/tactical/nt
+//	display_name = "NanoTrasen tag"
+//	path = /obj/item/clothing/accessory/armor/tag/nt/dagon
 	//allowed_branches = NT_BRANCHES
-	cost = 0 // Ditto.
+//	cost = 0 // Ditto.
 
 /// Limb guards
 // Arms

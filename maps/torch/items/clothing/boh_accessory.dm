@@ -1,7 +1,7 @@
 // marine patch
 /obj/item/clothing/accessory/solgov/smc_patch
-	name = "\improper Marine Corps patch"
-	desc = "A robust shoulder patch, carrying the symbol of the Solar Marine Corps, or SMC for short."
+	name = "\improper Modified Marine Corps patch"
+	desc = "A robust shoulder patch, carrying the symbol of the Solar Marine Corps, or SMC for short. The Solar has been overwritten with Independent."
 	icon = 'maps/torch/icons/obj/obj_accessories_boh.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_boh.dmi')
 	icon_state = "smcpatch"
@@ -24,9 +24,9 @@
 	on_rolled = list("down" = "none")
 
 // Modular version for NT Patch
-/obj/item/clothing/accessory/armor/tag/nt/dagon
-	name = "\improper NANOTRASEN patch"
-	desc = "An armor tag with the words NANOTRASEN printed in bottle green lettering on it."
+///obj/item/clothing/accessory/armor/tag/nt/dagon
+//	name = "\improper NANOTRASEN patch"
+//	desc = "An armor tag with the words NANOTRASEN printed in bottle green lettering on it."
 
 // Dog Tags badge string rename, plus added for SMC and NTEF.
 /obj/item/clothing/accessory/badge/solgov/tags

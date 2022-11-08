@@ -10,7 +10,7 @@
 	including many non-humans (though they are not citizens) and encompassing a wide range of systems, territories \
 	habitats, and celestial bodies. However, it is large, cumbersome, divided and slow to respond to issues due to \
 	its massive bureaucracy and the distance between worlds. Through its member states, the SCG governs as one of the \
-	most advanced and powerful civilisations in the known galaxy."
+	most advanced and powerful civilisations in the known galaxy. Those aboard the Independence are often formerly associated with this organization."
 
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
@@ -22,7 +22,8 @@
 	Any SCG human citizen with at least a secondary school level of education can enlist into the Fleet, going through \
 	basic training and on-ship training for their rating (speciality). Commissioned officer candidates require at least a \
 	Bachelor degree and go through a lengthy training process before being assigned to a warship. \
-	Recently Sol-made IPCs were also permitted to enlist, provided they agree to install a law shackle."
+	Recently Sol-made IPCs were also permitted to enlist, provided they agree to install a law shackle. \
+	Those aboard the Independence are often formerly associated with this organization."
 
 /decl/cultural_info/faction/torchco
 	name = FACTION_CORPORATE
@@ -33,7 +34,7 @@
 	While on the surface the Expeditionary Corps Organisation appears to have noble goals, it is in reality a compromise between the noble ideals of pioneering \
 	science, and the corporate desire to make a quick buck off whatever is found. Rumours also abound about shady practices, hidden \
 	protocols, and xenoartifacts being 'lost' in transit, but nothing has been conclusively proven as of yet, and SCG doubtless is \
-	reluctant to harpoon their own project."
+	reluctant to harpoon their own project. Those aboard the Independence are often formerly associated with this organization."
 	economic_power = 1.2
 	subversive_potential = 35
 
@@ -59,7 +60,8 @@
 	long-term scientific outposts, and studying anomalies and xenoarcheological sites. \
 	While not military, it was modelled in a naval style, with employees having ranks and uniforms. \
 	Any SCG citizen of age (18 and older) with no outstanding SCG-wide warrants can sign up for a 2-year contract. \
-	Officer candidates are required to have at least a bachelor's degree in a relevant field (astrogation, engineering, xenoarcheology, etc)."
+	Officer candidates are required to have at least a bachelor's degree in a relevant field (astrogation, engineering, xenoarcheology, etc). \
+	Those aboard the Independence are often formerly associated with this organization."
 
 /decl/cultural_info/faction/police
 	name = FACTION_SPACECOPS
@@ -85,7 +87,7 @@
 	They also have a sizeable asset protection and security branch with which they secure both investments and occasionally new acquisitions \
 	- a distressing rival to some minor star systems, and a powerful administrative branch sitting atop it all, directing their company's actions. \
 	NanoTrasen is characterized by its aggression and questionable ethics, which, combined with the high emphasis they put on new, untested and dangerous \
-	technology, means their installations are often considered unsafe and hazardous."
+	technology, means their installations are often considered unsafe and hazardous. Those aboard the Independence are often formerly associated with this organization."
 	economic_power = 1.2
 	subversive_potential = 15
 

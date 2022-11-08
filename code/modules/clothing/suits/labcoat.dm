@@ -74,7 +74,7 @@
 	icon_open = "labcoat_xy_open"
 	icon_closed = "labcoat_xy"
 	armor = list(
-		melee = ARMOR_MELEE_MINOR, 
+		melee = ARMOR_MELEE_MINOR,
 		bio = ARMOR_BIO_MINOR
 		)
 	species_restricted = list(SPECIES_IPC)
@@ -102,7 +102,7 @@
 
 /obj/item/clothing/suit/storage/toggle/labcoat/science/nanotrasen
 	name = "\improper NanoTrasen labcoat"
-	desc = "A suit that protects against minor chemical spills. it has a red stripe on the shoulder and red trim on the sleeves, denoting it as a NanoTrasen labcoat."
+	desc = "A suit that protects against minor chemical spills. it has a red stripe on the shoulder and red trim on the sleeves, denoting it as a former NanoTrasen labcoat"
 	icon_state = "labcoat_nt_open"
 	icon_open = "labcoat_nt_open"
 	icon_closed = "labcoat_nt"
@@ -150,7 +150,7 @@
 
 /obj/item/clothing/suit/storage/toggle/labcoat/roles/science/nanotrasen
 	name = "\improper NT long labcoat"
-	desc = "A full-body labcoat covered in red and black designs, denoting it as a NanoTrasen management coat. Judging by the amount of designs on it, it is only to be worn by the most enthusiastic of employees."
+	desc = "A full-body labcoat covered in red and black designs, denoting it as a former NanoTrasen management coat. Judging by the amount of designs on it, it was only to be worn by the most enthusiastic of employees."
 	icon_state = "labcoat_rd_nt_open"
 	icon_open = "labcoat_rd_nt_open"
 	icon_closed = "labcoat_rd_nt"

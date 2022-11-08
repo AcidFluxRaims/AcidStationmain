@@ -106,7 +106,7 @@
 	)
 
 /obj/structure/closet/secure_closet/smcattache
-	name = "marine attache's locker"
+	name = "marine commandant's locker"
 	req_access = list(access_senadv)
 	closet_appearance = /decl/closet_appearance/secure_closet/torch/command
 

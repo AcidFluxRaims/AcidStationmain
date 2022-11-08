@@ -24,11 +24,11 @@
 	id_type = /obj/item/weapon/card/id/torch/crew/research/scientist
 
 /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov
-	name = OUTFIT_JOB_NAME("Research Assistant - SCG")
+	name = OUTFIT_JOB_NAME("Research Assistant - IMC")
 	head = /obj/item/clothing/head/beret/solgov/research
 
 /decl/hierarchy/outfit/job/torch/passenger/research/scientist/solgov
-	name = OUTFIT_JOB_NAME("Scientist - SCG")
+	name = OUTFIT_JOB_NAME("Scientist - IMC")
 	head = /obj/item/clothing/head/beret/solgov/research
 
 /decl/hierarchy/outfit/job/torch/crew/research/roboticist
@@ -39,6 +39,6 @@
 	pda_type = /obj/item/modular_computer/pda/roboticist
 
 /decl/hierarchy/outfit/job/torch/crew/research/roboticist/fleet
-	name = OUTFIT_JOB_NAME("Roboticist - NTEF")
+	name = OUTFIT_JOB_NAME("Roboticist - IEF")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
 	shoes = /obj/item/clothing/shoes/dutyboots

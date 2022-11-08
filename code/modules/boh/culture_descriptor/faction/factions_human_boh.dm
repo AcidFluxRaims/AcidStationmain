@@ -1,6 +1,6 @@
 /decl/cultural_info/faction/scg/marine_corps
 	name = FACTION_MARINES
-	description = "The Solar Marine Corps are a military branch from the SCG tasked with orbital security, \
-	solving out-of-world military issues and protecting worlds within Solarian borders. \
-	The SMC also ensures the safety of gateways, as well as, alongside the NanoTrasen Fleet, border security. \
-	The Solar Marine Corps is also in charge of diplomatic security and escorts."
+	description = "The Independent Marine Corps are former Solaran marines by and large, \
+	recruited by and sworn to the command of the Independence, formerly Dagon. \
+	The IMC ensures the safety of the ship, the crew, and performs away duties as heavier-armed escorts. \
+	Generally better armed than they formerly were as SMC, the marine detachment aboard may also provide security in a pinch."

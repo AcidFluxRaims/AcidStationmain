@@ -4,7 +4,7 @@
 	spawn_positions = 1
 	supervisors = "the Chief of Security"
 	economic_power = 5
-	minimal_player_age = 6
+	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/brig_chief
 	allowed_branches = list(
@@ -84,7 +84,7 @@
 	spawn_positions = 4
 	supervisors = "the Chief of Security"
 	economic_power = 4
-	minimal_player_age = 3
+	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	alt_titles = list() // This is a hack. Overriding a list var with null does not actually override it due to the particulars of dm list init. Do not "clean up" without testing.
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/maa
@@ -163,9 +163,9 @@
 	total_positions = 1
 	spawn_positions = 1
 
-	supervisors = "the highest ranking Marine and SolGov Command"
+	supervisors = "the IMC Commandant and Independence Command"
 	selection_color = "#557e38"
-	minimal_player_age = 5
+	minimal_player_age = 0
 	economic_power = 7
 	skill_points = 34
 	minimum_character_age = list(SPECIES_HUMAN = 25)
@@ -193,14 +193,14 @@
 
 /datum/job/combat_tech
 	title = "Combat Technician"
-	supervisors = "the Squad Leader"
+	supervisors = "the Squad Leader, IMC Commandant"
 	department = "Infantry"
 	department_flag = INF
 	total_positions = 1
 	spawn_positions = 1
 	selection_color = "#557e38"
 	economic_power = 4
-	minimal_player_age = 8
+	minimal_player_age = 0
 	skill_points = 34
 	minimum_character_age = list(SPECIES_HUMAN = 20)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/infantry/combat_tech
@@ -240,7 +240,7 @@
 	department_flag = INF
 	total_positions = 3
 	spawn_positions = 3
-	minimal_player_age = 6
+	minimal_player_age = 0
 	supervisors = "the Combat Technician and Squad Leader"
 	selection_color = "#557e38"
 	skill_points = 28
