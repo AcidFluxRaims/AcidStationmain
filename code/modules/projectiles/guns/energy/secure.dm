@@ -42,7 +42,7 @@
 
 /obj/item/weapon/gun/energy/revolver/secure
 	name = "LAER680-S"
-	desc = "The LAER680-S, a standard issue service revolver commonly used by higher ranking offcers among the SCG. Fitted with an NT1019 chip which allows remote authorization of the weapon's functionality."
+	desc = "The LAER680-S, a standard-issue service pistol commonly used by higher ranking offcers among the SCG. Fitted with an NT1019 chip which allows remote authorization of the weapon's functionality."
 	icon = 'icons/obj/guns/energy_revolver.dmi'
 	icon_state = "energyrevolverstun100"
 	item_icons = list(
@@ -58,6 +58,25 @@
 		)
 	req_access = list(list(access_brig, access_heads))
 	authorized_modes = list(ALWAYS_AUTHORIZED, AUTHORIZED)
+	base_parry_chance = 10
+	self_recharge = 1
+
+/obj/item/weapon/gun/energy/revolver/secure/modifiedlaer
+	name = "LAER680-M"
+	desc = "The LAER680-M, a standard-issue service pistol commonly used by higher-ranking officers among the SCG. Modified by N4N4 for the Independence."
+	icon = 'icons/obj/guns/energy_revolver.dmi'
+	icon_state = "energyrevolverstun100"
+	modifystate = "energyrevolverkill"
+	item_icons = list(
+		slot_l_hand_str = 'icons/mob/onmob/items/lefthand_guns_secure.dmi',
+		slot_r_hand_str = 'icons/mob/onmob/items/righthand_guns_secure.dmi',
+		)
+	firemodes = list(
+		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, modifystate="energyrevolverstun"),
+		list(mode_name="kill", projectile_type=/obj/item/projectile/beam/midlaser, modifystate="energyrevolverkill")
+		)
+	req_access = list(UNAUTHORIZED)
+	authorized_modes = list(UNAUTHORIZED)
 	base_parry_chance = 10
 	self_recharge = 1
 

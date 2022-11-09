@@ -46,7 +46,8 @@
 
 /obj/item/gunbox/infcom/attack_self(mob/living/user)
 	var/list/options = list()
-	options["Ballistic - Tectonic"] = list(/obj/item/weapon/gun/projectile/shotgun/sabotgun,/obj/item/weapon/gun/energy/revolver/secure,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot)
+	options["Ballistic - Tectonic"] = list(/obj/item/weapon/gun/projectile/shotgun/sabotgun,
+	/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot)
 	options["Ballistic - Komodo"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/lmg,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/weapon/gun/energy/revolver/secure)
 	options["Energy - Laser Carbine (has burst fire)"] = list(/obj/item/weapon/gun/energy/laser/infantry/sl,/obj/item/weapon/gun/energy/revolver/secure)
 	var/choice = input(user,"What type of equipment?") as null|anything in options
@@ -162,6 +163,8 @@
 		/obj/item/ammo_magazine/pistol/throwback/pistol2 = 15,
 		/obj/item/ammo_magazine/pistol/throwback/pistol3 = 15,
 		/obj/item/ammo_magazine/pistol/throwback/pistol4 = 15,
+		/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/lmg = 5,
+		/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec = 5,
 		/obj/item/weapon/gun/projectile/automatic/assault_rifle = 4,
 		/obj/item/weapon/gun/projectile/automatic/machine_pistol = 4,
 		/obj/item/weapon/gun/projectile/pistol/magnum_pistol = 2,
@@ -171,7 +174,7 @@
 		/obj/item/weapon/gun/projectile/pistol/holdout = 4,
 		/obj/item/weapon/gun/energy/gun/small = 4,
 		/obj/item/weapon/gun/energy/gun = 4,
-		/obj/item/weapon/gun/energy/revolver/secure/modified = 3,
+		/obj/item/weapon/gun/energy/revolver/secure/modifiedlaer = 3,
 		/obj/item/weapon/gun/projectile/automatic = 4,
 		/obj/item/weapon/gun/projectile/automatic/sec_smg = 6,
 		/obj/item/weapon/gun/projectile/shotgun/pump = 4,
@@ -182,11 +185,14 @@
 		/obj/item/weapon/gun/projectile/heavysniper/enfield4 = 3,
 		/obj/item/weapon/gun/projectile/heavysniper/smle = 3,
 		/obj/item/weapon/gun/energy/leelaser = 2,
+		/obj/item/weapon/gun/energy/laser/infantry/sl = 3,
 		/obj/item/weapon/gun/projectile/automatic/lewisgun = 2,
 		/obj/item/weapon/gun/projectile/pistol/throwback = 2,
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol2 = 2,
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol3 = 2,
-		/obj/item/weapon/gun/projectile/pistol/throwback/pistol4 = 2
+		/obj/item/weapon/gun/projectile/pistol/throwback/pistol4 = 2,
+		/obj/item/weapon/gun/projectile/shotgun/sabotgun = 2,
+
 		)
 
 /////////
