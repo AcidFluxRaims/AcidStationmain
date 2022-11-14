@@ -761,3 +761,17 @@
 	worn_state = "anzac"
 	gender_icons = 0
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+
+/obj/item/clothing/under/latexcorset
+	desc = "A completely normal piece of clothing for wear aboard a military vessel."
+	name = "Standard Posture-Assister"
+	icon_state = "latexcorset"
+	worn_state = "latexcorset"
+	gender_icons = 0
+
+/obj/item/clothing/under/nanadress
+	desc = "A prototype dress with all sorts of technological bits designed to interface with prototype IPCs."
+	name = "N4N4-1 dress"
+	icon_state = "nanadress"
+	worn_state = "nanadress"
+	gender_icons = 0

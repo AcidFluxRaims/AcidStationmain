@@ -224,6 +224,8 @@
 	var/obj/item/organ/internal/eyes/E = src.internal_organs_by_name[species.vision_organ]
 	if(!E)
 		return
+	if(isSynthetic())
+		return
 	var/safety = eyecheck()
 	switch(safety)
 		if(FLASH_PROTECTION_MODERATE)

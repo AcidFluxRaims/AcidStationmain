@@ -182,7 +182,7 @@
 	path = /obj/item/weapon/material/knife/combat
 	cost = 3
 	//allowed_roles = ARMORED_ROLES
-	//allowed_branches = TACTICOOL_BRANCHES
+	allowed_branches = TACTICOOL_BRANCHES
 
 // Too lazy to adjust outfit
 /datum/gear/accessory/nt_blaze

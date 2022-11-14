@@ -129,7 +129,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/security/infantry/squadlead
 
 /datum/job/squad_lead/get_description_blurb()
-	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a Squad Leader. Your duty is to organize and lead the small infantry squad to support the Pathfinder. You command Marines in your Squad. You make sure that expedition has the firepower it needs. Once on the away mission, your duty is to ensure that the worst doesn't become reality."
+	return "You are a Squad Leader. Your duty is to organize and lead the small infantry squad to support the Pathfinder. You command Marines in your Squad. You make sure that expedition has the firepower it needs. Once on the away mission, your duty is to ensure that the worst doesn't become reality."
 
 /datum/job/combat_tech
 	title = "Combat Technician"
@@ -161,15 +161,8 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/security/infantry/tech
 
-/datum/job/combat_tech/is_position_available()
-	if(..())
-		for(var/mob/M in GLOB.player_list)
-			if(M.client && M.mind && M.mind.assigned_role == "Squad Lead")
-				return TRUE
-	return FALSE
-
 /datum/job/combat_tech/get_description_blurb()
-	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are the singular Combat Technician in the squad. Your duty is to provide both firepower and demolitions as required. You may assume Command if no Squad Leader is present."
+	return "You are the singular Combat Technician in the squad. Your duty is to provide both firepower and demolitions as required. You may assume Command if no Squad Leader is present."
 
 /datum/job/grunt
 	title = "Rifleman"
@@ -195,13 +188,6 @@
 		"Trooper")
 
 	outfit_type = /decl/hierarchy/outfit/job/security/infantry/grunt
-
-/datum/job/grunt/is_position_available()
-	if(..())
-		for(var/mob/M in GLOB.player_list)
-			if(M.client && M.mind && M.mind.assigned_role == "Squad Lead")
-				return TRUE
-	return FALSE
 
 /datum/job/grunt/get_description_blurb()
 	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a Marine! Your duty is to listen to the Squad Leader. If they're not present, the Combat Technician may pull rank. Do your best not to die, while also taking orders. Oorah!"

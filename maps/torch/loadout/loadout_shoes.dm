@@ -36,3 +36,14 @@
 	display_name = "Puttee boots"
 	description = "Well-worn leather and cloth boots, irreversably caked in mud and other substances."
 	path = /obj/item/clothing/shoes/puttee
+
+/datum/gear/shoes/stilettoboots
+	display_name = "Stiletto Boots"
+	description = "Fashionable and can be used as impromptu kicking damage boosters."
+	path = /obj/item/clothing/shoes/stilettoboots
+
+/datum/gear/shoes/nanaboots
+	display_name = "N4N4 prototype boots"
+	description = "Designed specifically to interface with prototype IPCs."
+	path = /obj/item/clothing/shoes/nanaboots
+	allowed_roles = COMMAND_ROLES

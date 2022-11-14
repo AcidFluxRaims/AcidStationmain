@@ -7,7 +7,7 @@
 	paths = list(
 		/obj/item/weapon/screwdriver/finger,
 		/obj/item/weapon/wrench/finger,
-		/obj/item/weapon/weldingtool/finger,
+		/obj/item/weapon/weldingtool/electric/finger,
 		/obj/item/weapon/crowbar/finger,
 		/obj/item/weapon/wirecutters/finger,
 		/obj/item/device/multitool/finger
@@ -19,14 +19,14 @@
 /obj/item/organ/internal/augment/active/polytool/engineer/right
 	allowed_organs = list(BP_AUGMENT_R_ARM)
 
-/obj/item/weapon/weldingtool/finger
+/obj/item/weapon/weldingtool/electric/finger
 	name = "digital welder"
 	desc = "A precise, high quality welding tool."
 	icon_state = "welder_finger"
 	icon = 'icons/obj/augment_tools.dmi'
 
 
-/obj/item/weapon/weldingtool/finger/on_update_icon()
+/obj/item/weapon/weldingtool/electric/finger/on_update_icon()
 	icon_state = welding ? "welder_finger_on" : "welder_finger"
 
 /obj/item/weapon/wirecutters/finger

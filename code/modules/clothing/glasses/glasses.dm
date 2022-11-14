@@ -15,7 +15,7 @@
 	var/obj/screen/overlay = null
 	var/obj/item/clothing/glasses/hud/hud = null	// Hud glasses, if any
 	var/electric = FALSE //if the glasses should be disrupted by EMP
-	
+
 	var/toggle_on_message //set these in initialize if you want messages other than about the optical matrix
 	var/toggle_off_message
 
@@ -155,6 +155,21 @@
 	toggleable = TRUE
 	see_invisible = SEE_INVISIBLE_NOLIGHTING
 	siemens_coefficient = 0.6
+	electric = TRUE
+
+/obj/item/clothing/glasses/nanaeyes
+	name = "Optical Sensor Update"
+	desc = "An optical sensor update for binocular APC chassis."
+	icon_override = "thermalimplants"
+	icon_state = "nanaeyes"
+	infra_luminosity = 1
+	origin_tech = list(TECH_MAGNET = 2, TECH_COMBAT = 4)
+	darkness_view = 5
+	action_button_name = "Toggle Nightvision"
+	toggleable = TRUE
+	see_invisible = SEE_INVISIBLE_NOLIGHTING
+	siemens_coefficient = 0.6
+	off_state = "denanaeyes"
 	electric = TRUE
 
 /obj/item/clothing/glasses/monocle

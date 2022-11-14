@@ -4,13 +4,13 @@
 	path = /obj/item/clothing/accessory
 	cost = 4
 
-/datum/gear/accessory/solawardmajor
+/datum/gear/accessory/solawardmajor2
 	display_name = "major award selection, additional"
 	description = "A medal or ribbon awarded to military and paramilitary personnel for significant accomplishments."
 	path = /obj/item/clothing/accessory
 	cost = 4
 
-/datum/gear/accessory/solawardmajor
+/datum/gear/accessory/solawardmajor3
 	display_name = "major award selection, tertiary"
 	description = "A medal or ribbon awarded to military and paramilitary personnel for significant accomplishments."
 	path = /obj/item/clothing/accessory
@@ -104,16 +104,16 @@
 	allowed_roles = SECURITY_ROLES
 
 /datum/gear/accessory/armband_security
-	//allowed_roles = SECURITY_ROLES
+	allowed_roles = SECURITY_ROLES
 
 /datum/gear/accessory/armband_cargo
-	//allowed_roles = SUPPLY_ROLES
+	allowed_roles = SUPPLY_ROLES
 
 /datum/gear/accessory/armband_medical
-	//allowed_roles = MEDICAL_ROLES
+	allowed_roles = MEDICAL_ROLES
 
 /datum/gear/accessory/armband_emt
-	//allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee)
+	allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee)
 
 /datum/gear/accessory/armband_corpsman
 	display_name = "medical armband"
@@ -154,7 +154,7 @@
 /datum/gear/storage/white_drop_pouches
 
 /datum/gear/tactical/holster
-	allowed_roles = ARMED_ROLES
+	//allowed_roles = ARMED_ROLES
 
 /datum/gear/tactical/holster/New()
 	..()
@@ -313,15 +313,15 @@
 /datum/gear/tactical/secpistol
 	display_name = "Compact Energy Pistol"
 	description = "The same small, less-lethal energy pistol that security is issued."
-	path = /obj/item/weapon/gun/projectile/pistol/sec
+	path = /obj/item/weapon/gun/energy/gun/small/secure
 	cost = 5
 	allowed_roles = ARMORED_ROLES
 
 /datum/gear/tactical/revolver
 	display_name = "Revolver"
 	description = "A high-caliber revolver. Don't mess around with this."
-	path = /obj/item/weapon/gun/projectile/revolver
-	cost = 8
+	path = /obj/item/weapon/gun/projectile/revolver/medium
+	cost = 6
 	allowed_roles = ARMORED_ROLES
 
 /datum/gear/tactical/colt1911

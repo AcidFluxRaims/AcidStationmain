@@ -39,7 +39,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	req_admin_notify = 1
 	minimal_player_age = 14
 	economic_power = 10
-	ideal_character_age = 35
+	ideal_character_age = 30
 
 	access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_heads,
 			            access_medical, access_engine, access_change_ids, access_ai_upload, access_eva, access_bridge,

@@ -277,3 +277,26 @@ obj/item/clothing/shoes/heels/red
 	desc = "Well-worn leather and cloth boots, irreversably caked in mud and other substances."
 	icon_state = "puttee"
 	item_state = "puttee"
+
+/obj/item/clothing/shoes/stilettoboots
+	name = "Stiletto boots"
+	desc = "Nice, classy, with a bit of brash charm for spaceship use."
+	icon_state = "stilettoboots"
+	item_state = "stilettoboots"
+
+/obj/item/clothing/shoes/nanaboots
+	name = "N4N4-1 boots"
+	desc = "Special boots for a special machine."
+	icon_state = "nanaboots"
+	item_state = "nanaboots"
+	force = 3
+	armor = list(
+		melee = ARMOR_MELEE_VERY_HIGH,
+		bullet = ARMOR_BALLISTIC_RIFLE,
+		laser = ARMOR_LASER_PISTOL,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_RESISTANT,
+		bio = ARMOR_BIO_MINOR
+		)
+	item_flags = ITEM_FLAG_NOSLIP
+	siemens_coefficient = 0.6

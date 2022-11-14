@@ -92,3 +92,14 @@
 	display_name = "Australian Fatigues"
 	description = "An ancient set of fatigues from a long-lost era."
 	path = /obj/item/clothing/under/ozuni
+
+/datum/gear/uniform/latexcorset
+	display_name = "Standard Posture-Adjuster"
+	description = "This is a normal posture assistant aid."
+	path = /obj/item/clothing/under/latexcorset
+
+/datum/gear/uniform/nanadress
+	display_name = "N4N4 prototype casual uniform"
+	description = "A prototype piece of clothing to replace a gear harness."
+	path = /obj/item/clothing/under/nanadress
+	allowed_roles = COMMAND_ROLES

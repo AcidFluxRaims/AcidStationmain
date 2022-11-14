@@ -49,3 +49,4 @@
 	display_name = "Integrated Exploration Suite, right arm (IPC)"
 	path = /obj/item/organ/internal/augment/active/polytool/innerweaponslight/right
 	allowed_roles = EXPLORATION_ROLES
+
