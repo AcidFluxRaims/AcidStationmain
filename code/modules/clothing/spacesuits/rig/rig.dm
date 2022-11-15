@@ -18,12 +18,12 @@
 	// These values are passed on to all component pieces.
 	armor_type = /datum/extension/armor/rig
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT, 
-		bullet = ARMOR_BALLISTIC_MINOR, 
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_MINOR,
 		laser = ARMOR_LASER_SMALL,
-		energy = ARMOR_ENERGY_MINOR, 
-		bomb = ARMOR_BOMB_PADDED, 
-		bio = ARMOR_BIO_SHIELDED, 
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_PADDED,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_MINOR
 		)
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
@@ -340,7 +340,7 @@
 	playsound(src, 'sound/machines/rigstarted.ogg', 10, 0)
 	if(!canremove && update_visible_name)
 		visible_name = wearer.real_name
-	
+
 
 	if(wearer != initiator)
 		to_chat(initiator, "<font color='blue'>Suit adjustment complete. Suit is now [canremove ? "unsealed" : "sealed"].</font>")
@@ -393,9 +393,9 @@
 			if(!canremove)
 				if (offline_slowdown < 3)
 					to_chat(wearer, "<span class='danger'>Your suit beeps stridently, and suddenly goes dead.</span>")
-					playsound(src, 'sound/machines/rigdown.ogg', 60, 0)
+					playsound(src, 'sound/machines/rigdown.ogg', 30, 0)
 				else
-					playsound(src, 'sound/machines/rigdown.ogg', 60, 0)
+					playsound(src, 'sound/machines/rigdown.ogg', 30, 0)
 					to_chat(wearer, "<span class='danger'>Your suit beeps stridently, and suddenly you're wearing a leaden mass of metal and plastic composites instead of a powered suit.</span>")
 			if(offline_vision_restriction >= TINT_MODERATE)
 				to_chat(wearer, "<span class='danger'>The suit optics flicker and die, leaving you with restricted vision.</span>")

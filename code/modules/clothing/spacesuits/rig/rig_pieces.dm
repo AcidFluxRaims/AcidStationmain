@@ -73,13 +73,15 @@
 
 /obj/item/clothing/shoes/magboots/rig/handle_movement(var/turf/walking, var/running)
 	if(running)
-		if(footstep >= 2)
+		if(footstep >= 1)
 			footstep = 0
-			playsound(src, "sound/machines/rigstep.ogg", 50, 1) // this will get annoying very fast.
+			playsound(src, "sound/machines/rigrun.ogg", 20, 1) // this will get annoying very fast.
 		else
 			footstep++
 	else
-		playsound(src, "sound/machines/rigstep.ogg", 20, 1)
+		if(footstep >= 1)
+			footstep = 0
+		playsound(src, "sound/machines/rigwalk.ogg", 7, 1)
 
 /obj/item/clothing/suit/space/rig
 	name = "chestpiece"

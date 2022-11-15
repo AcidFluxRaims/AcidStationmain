@@ -11,6 +11,7 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o6,
+		/datum/mil_rank/ec/o8,
 		/datum/mil_rank/fleet/o6,
 		/datum/mil_rank/fleet/o7,
 		/datum/mil_rank/fleet/o8,
@@ -283,12 +284,12 @@
 	return "You are the Chief of Security. You manage ship security. The Masters at Arms and the Military Police, as well as the Brig Chief and the Forensic Technician. You keep the vessel safe. You handle both internal and external security matters. You are the law. You are subordinate to the CO and the XO. You are expected to know the SCMJ and Sol law and Alert Procedure to a very high degree along with general regulations."
 
 /datum/job/representative
-	title = "SolGov Representative"
+	title = "Independence Commissary Boss"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Sol Central Government and the SCG Charter"
+	supervisors = "the Commanding Officer"
 	selection_color = "#2f2f7f"
 	economic_power = 15
 	minimal_player_age = 5
@@ -307,7 +308,7 @@
 	software_on_spawn = list(/datum/computer_file/program/reports)
 
 /datum/job/representative/get_description_blurb()
-	return "You are the Sol Gov Representative. You are a civilian assigned as both a diplomatic liaison for first contact and foreign affair situations on board. You are also responsible for monitoring for any serious missteps of justice, sol law or other ethical or legal issues aboard and informing and advising the Commanding Officer of them. You are a mid-level bureaucrat. You liaise between the crew and corporate interests on board. Send faxes back to Sol on mission progress and important events."
+	return "You are the Independence Commissary Boss. You import and export the high-value goods and commodities recovered by the Independence during her travels. You also are in charge of the commissary on the bridge deck, which stocks many high-level materials and weaponry, to be sold at your discretion to the crew. Preferably only those that would normally have a use or need for such things."
 
 /datum/job/sea
 	title = "Senior Enlisted Advisor"

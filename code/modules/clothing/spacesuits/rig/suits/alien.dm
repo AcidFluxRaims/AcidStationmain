@@ -23,6 +23,16 @@
 	boot_type = /obj/item/clothing/shoes/magboots/rig/unathi
 	glove_type = /obj/item/clothing/gloves/rig/unathi
 
+/obj/item/clothing/shoes/magboots/rig/unathi/handle_movement(var/turf/walking, var/running)
+	if(running)
+		if(footstep >= 1)
+			footstep = 0
+			playsound(src, "sound/machines/breacherrun.ogg", 25, 1) // this will get annoying very fast.
+		else
+			footstep++
+	else
+		playsound(src, "sound/machines/breacherstep.ogg", 12, 1)
+
 /obj/item/weapon/rig/unathi/fancy
 	name = "Unathi breacher chassis control module"
 	desc = "An (outwardly) authentic Unathi breacher chassis. Huge, bulky and absurdly heavy. It must be like wearing a tank."

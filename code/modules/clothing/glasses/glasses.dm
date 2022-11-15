@@ -160,16 +160,29 @@
 /obj/item/clothing/glasses/nanaeyes
 	name = "Optical Sensor Update"
 	desc = "An optical sensor update for binocular APC chassis."
-	icon_override = "thermalimplants"
 	icon_state = "nanaeyes"
 	infra_luminosity = 1
 	origin_tech = list(TECH_MAGNET = 2, TECH_COMBAT = 4)
-	darkness_view = 5
-	action_button_name = "Toggle Nightvision"
+	darkness_view = 7
+	action_button_name = "Toggle Light Amplification"
 	toggleable = TRUE
 	see_invisible = SEE_INVISIBLE_NOLIGHTING
 	siemens_coefficient = 0.6
 	off_state = "denanaeyes"
+	electric = TRUE
+
+/obj/item/clothing/glasses/ipclightamp
+	name = "Optical Sensor Light Amplitude Module"
+	desc = "An optical sensor update for standard IPC chassis."
+	icon_state = "ipclightamp"
+	infra_luminosity = 1
+	origin_tech = list(TECH_MAGNET = 2, TECH_COMBAT = 4)
+	darkness_view = 4
+	action_button_name = "Toggle Light Amplification"
+	toggleable = TRUE
+	see_invisible = SEE_INVISIBLE_NOLIGHTING
+	siemens_coefficient = 0.6
+	off_state = "deipclightamp"
 	electric = TRUE
 
 /obj/item/clothing/glasses/monocle

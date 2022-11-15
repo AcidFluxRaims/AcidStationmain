@@ -1,5 +1,5 @@
 /datum/job/submap/bearcat_captain
-	title = "Independant Captain"
+	title = "Independent Captain"
 	total_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/captain
 	is_semi_antagonist = TRUE
@@ -9,7 +9,7 @@
 	Organize what's left of your crew, and continue with your trading efforts."
 
 /datum/job/submap/bearcat_crewman
-	title = "Independant Crewman"
+	title = "Independent Crewman"
 	supervisors = "the Captain"
 	total_positions = 5
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/crew
@@ -52,7 +52,7 @@
 #undef BEARCAT_OUTFIT_JOB_NAME
 
 /obj/effect/submap_landmark/spawnpoint/captain
-	name = "Independant Captain"
+	name = "Independent Captain"
 
 /obj/effect/submap_landmark/spawnpoint/crewman
 	name = "Independant Crewman"
