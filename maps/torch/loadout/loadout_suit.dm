@@ -127,3 +127,9 @@
 	armors["blue kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/blue
 	armors["green kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/green
 	gear_tweaks += new/datum/gear_tweak/path(armors)
+
+/datum/gear/suit/medical
+	display_name = "Medical Section Coat"
+	path = /obj/item/clothing/suit/storage/jacket/solgov/fleet/medical
+	cost = 2
+	slot = slot_wear_suit

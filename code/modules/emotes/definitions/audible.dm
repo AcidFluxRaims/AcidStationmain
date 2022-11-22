@@ -214,7 +214,7 @@
 	emote_message_3p = "USER wheezes."
 
 /decl/emote/audible/hiss
-	key ="hiss_"
+	key = "hiss_"
 	emote_message_3p_target = "USER hisses softly at TARGET."
 	emote_message_3p = "USER hisses softly."
 
@@ -224,6 +224,23 @@
 	emote_message_3p_target= "USER oorahs at TARGET!"
 
 /decl/emote/audible/skrell_warble
-	key ="warble"
+	key = "warble"
 	emote_message_3p = "USER warbles."
 	emote_sound = 'sound/voice/warble.ogg'
+
+/decl/emote/audible/lizard_squeal
+	key = "usqueal"
+	emote_message_3p_target = "USER lets out a reptilian squeal towards TARGET!"
+	emote_message_3p = "USER emits a reptilian squeal!"
+	emote_sound = 'sound/voice/sound_voice_LizardSqueal_1.ogg'
+
+/decl/emote/audible/lizard_bellow
+	key = "ubellow"
+	emote_message_3p_target = "USER rumbles and lets out a rattling bellow at TARGET!"
+	emote_message_3p = "USER rumbles and lets out a rattling bellow!"
+	emote_sound = 'sound/voice/sound_voice_LizardBellow.ogg'
+
+/decl/emote/audible/synth/steamvent
+	key = "vent"
+	emote_message_3p = "USER extracts excess heat build-up through their vents with a cloud of pressurized steam."
+	emote_sound = 'sound/machines/steamvent.ogg'

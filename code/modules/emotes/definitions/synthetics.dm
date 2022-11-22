@@ -28,6 +28,11 @@
 	emote_message_3p = "USER emits a negative blip."
 	emote_sound = 'sound/machines/synth_no.ogg'
 
+/decl/emote/audible/synth/steamvent
+	key = "vent"
+	emote_message_3p = "USER extracts excess heat build-up through their vents with a cloud of pressurized steam."
+	emote_sound = 'sound/machines/steamvent.ogg'
+
 /decl/emote/audible/synth/security
 	key = "law"
 	emote_message_3p = "USER shows USER_HIS legal authorization barcode."

@@ -119,6 +119,7 @@
 #define MOB_MINISCULE	1
 
 // Defines how strong the species is compared to humans. Think like strength in D&D
+#define STR_IPC			6
 #define STR_VHIGH       2
 #define STR_HIGH        1
 #define STR_MEDIUM      0

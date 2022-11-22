@@ -17,11 +17,11 @@
 	darksight_tint = DARKTINT_NONE
 	skin_material = MATERIAL_PLASTEEL
 	bone_material = MATERIAL_TITANIUM
-	strength = STR_VHIGH
+	strength = STR_IPC
 	flash_mod = -1
-	total_health = 800
+	total_health = 1200
 	siemens_coefficient = 3
-	min_age = 18
+	min_age = 1
 	max_age = 50
 	brute_mod = 0.3
 	burn_mod = 0.3
@@ -30,6 +30,7 @@
 	resistance = 20
 	damage_reduction = 5
 	hardiness = 4
+	gluttonous = GLUT_TINY
 	natural_armour_values = list(
 		melee = 80,
 		bullet = 90,
@@ -66,7 +67,7 @@
 		BP_EYES = /obj/item/organ/internal/eyes/robot
 		)
 
-	heat_discomfort_level = 4000
+	heat_discomfort_level = 2000
 	heat_discomfort_strings = list(
 		"Your CPU temperature probes warn you that you are approaching critical heat levels!"
 		)

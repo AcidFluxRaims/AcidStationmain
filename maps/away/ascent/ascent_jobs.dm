@@ -90,7 +90,7 @@
 	is_semi_antagonist = TRUE
 	var/requires_supervisor = FALSE
 	var/set_species_on_join = SPECIES_MANTID_GYNE
-	skill_points = 34
+	skill_points = 44
 	min_skill = list(SKILL_EVA = SKILL_ADEPT,
 					SKILL_PILOT = SKILL_ADEPT,
 					SKILL_HAULING = SKILL_ADEPT,

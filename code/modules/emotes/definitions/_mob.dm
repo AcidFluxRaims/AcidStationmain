@@ -197,7 +197,8 @@
 		/decl/emote/audible/synth/confirm,
 		/decl/emote/audible/synth/deny,
 		/decl/emote/audible/synth/security,
-		/decl/emote/audible/synth/security/halt
+		/decl/emote/audible/synth/security/halt,
+		/decl/emote/audible/synth/steamvent
 		)
 
 /mob/living/silicon/robot/flying/ascent
