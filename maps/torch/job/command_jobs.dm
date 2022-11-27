@@ -7,7 +7,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/CO
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet
+		/datum/mil_branch/fleet,
+		/datum/mil_branch/marine_corps
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o6,
@@ -17,8 +18,20 @@
 		/datum/mil_rank/fleet/o8,
 		/datum/mil_rank/fleet/o9,
 		/datum/mil_rank/fleet/o10,
-		/datum/mil_rank/fleet/o10_alt
+		/datum/mil_rank/fleet/o10_alt,
+		/datum/mil_rank/marine_corps/o6,
+		/datum/mil_rank/marine_corps/o7,
+		/datum/mil_rank/marine_corps/o8,
+		/datum/mil_rank/marine_corps/o9,
+		/datum/mil_rank/marine_corps/o10
 	)
+
+	alt_titles = list(
+		"Lead Captain",
+		"Relief Captain",
+		"Force Commander"
+		)
+
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_SCIENCE     = SKILL_ADEPT,
 	                    SKILL_PILOT       = SKILL_ADEPT,

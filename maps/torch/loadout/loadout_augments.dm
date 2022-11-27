@@ -29,16 +29,17 @@
 /datum/gear/augmentation/subdermalarmor
 	display_name = "Subdermal armor plating"
 	path = /obj/item/organ/internal/augment/armor
+	allowed_roles = ARMED_ROLES
 
 /datum/gear/augmentation/innerweapons
 	display_name = "Integrated Weapons Suite, left arm (IPC)"
 	path = /obj/item/organ/internal/augment/active/polytool/innerweapons/left
-	allowed_roles = COMMAND_ROLES
+	allowed_roles = list(/datum/job/captain,/datum/job/sea/marine)
 
 /datum/gear/augmentation/innerweapons/right
 	display_name = "Integrated Weapons Suite, right arm (IPC)"
 	path = /obj/item/organ/internal/augment/active/polytool/innerweapons/right
-	allowed_roles = COMMAND_ROLES
+	allowed_roles = list(/datum/job/captain,/datum/job/sea/marine)
 
 /datum/gear/augmentation/innerweaponslight
 	display_name = "Integrated Exploration Suite, left arm (IPC)"

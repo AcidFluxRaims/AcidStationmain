@@ -390,9 +390,9 @@
 			H.visible_message("<span class='warning'>[H] tenses as [T.he] brings [T.his] smaller arms in close to [T.his] body. [T.His] two massive spiked arms reach \
 			out. [T.He] looks ready to attack.</span>")
 
-/datum/species/nabber/check_background(var/datum/job/job, var/datum/preferences/prefs)
-	var/decl/cultural_info/culture/nabber/grade = SSculture.get_culture(prefs.cultural_info[TAG_CULTURE])
-	. = istype(grade) ? (job.type in grade.valid_jobs) : ..()
+///datum/species/nabber/check_background(var/datum/job/job, var/datum/preferences/prefs)
+//	var/decl/cultural_info/culture/nabber/grade = SSculture.get_culture(prefs.cultural_info[TAG_CULTURE])
+//	. = istype(grade) ? (job.type in grade.valid_jobs) : ..()
 
 /datum/species/nabber/skills_from_age(age)	//Converts an age into a skill point allocation modifier. Can be used to give skill point bonuses/penalities not depending on job.
 	switch(age)

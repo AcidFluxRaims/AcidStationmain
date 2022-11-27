@@ -1,16 +1,10 @@
 /datum/map/torch
 	species_to_job_whitelist = list(
-		/datum/species/nabber = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
-						/datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/sea, /datum/job/sea/marine, /datum/job/psiadvisor,
-						/datum/job/bridgeofficer, /datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/explorer,
-						/datum/job/senior_engineer, /datum/job/engineer, /datum/job/engineer_trainee,
-						/datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/seccadet,
-						/datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt,
-						/datum/job/senior_doctor, /datum/job/biomech, /datum/job/doctor, /datum/job/chemist, /datum/job/medical_trainee,
-						/datum/job/psychiatrist, /datum/job/chaplain,
-						/datum/job/qm, /datum/job/cargo_tech, /datum/job/mining,
-						/datum/job/janitor, /datum/job/chef, /datum/job/bartender,
-						/datum/job/senior_scientist, /datum/job/scientist, /datum/job/roboticist, /datum/job/scientist_assistant,
+		/datum/species/nabber = list(///datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
+						///datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/sea, /datum/job/sea/marine, /datum/job/psiadvisor,
+						/datum/job/explorer,/datum/job/engineer, /datum/job/engineer_trainee, /datum/job/seccadet,
+						/datum/job/grunt, /datum/job/medical_trainee, /datum/job/cargo_tech, /datum/job/mining,
+						/datum/job/janitor, /datum/job/chef, /datum/job/bartender, /datum/job/scientist_assistant,
 						/datum/job/ai, /datum/job/cyborg,
 						/datum/job/crew, /datum/job/assistant,
 						/datum/job/merchant, /datum/job/symbiote),
@@ -93,21 +87,21 @@
 				species_blacklist |= job.type
 
 // Some jobs for nabber grades defined here due to map-specific job datums.
-/decl/cultural_info/culture/nabber/New()
-	LAZYADD(valid_jobs, /datum/job/scientist_assistant)
-	..()
+///decl/cultural_info/culture/nabber/New()
+//	LAZYADD(valid_jobs, /datum/job/scientist_assistant, /datum/job/janitor, /datum/job/seccadet, /datum/job/assistant, /datum/job/crew, /datum/job/engineer_trainee, /datum/job/explorer, /datum/job/grunt)
+//	..()
 
-/decl/cultural_info/culture/nabber/b/New()
-	LAZYADD(valid_jobs, /datum/job/cargo_tech)
-	..()
+///decl/cultural_info/culture/nabber/b/New()
+//	LAZYADD(valid_jobs, /datum/job/cargo_tech)
+//	..()
 
-/decl/cultural_info/culture/nabber/a/New()
-	LAZYADD(valid_jobs, /datum/job/engineer)
-	..()
+///decl/cultural_info/culture/nabber/a/New()
+//	LAZYADD(valid_jobs, /datum/job/engineer)
+//	..()
 
-/decl/cultural_info/culture/nabber/a/plus/New()
-	LAZYADD(valid_jobs, /datum/job/doctor)
-	..()
+///decl/cultural_info/culture/nabber/a/plus/New()
+//	LAZYADD(valid_jobs, /datum/job/doctor)
+//	..()
 
 /datum/job
 	allowed_branches = list(
