@@ -6,7 +6,7 @@ Synthetic
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "your laws"
-	minimal_player_age = 6
+	minimal_player_age = 0
 	allowed_ranks = list(
 		/datum/mil_rank/civ/synthetic
 	)

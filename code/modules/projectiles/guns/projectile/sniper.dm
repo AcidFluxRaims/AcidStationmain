@@ -101,7 +101,7 @@
 	accuracy = 5
 	bulk = 0
 	scoped_accuracy = 12 //increased accuracy over the LWAP because only one shot
-	scope_zoom = 2
+	scope_zoom = 3
 	has_safety = 0
 	load_sound = 'sound/weapons/guns/interaction/rifle_load.ogg'
 	fire_sound = 'sound/weapons/gunshot/acidarmcannon5.ogg'
@@ -162,7 +162,7 @@
 	accuracy = 10
 	scope_zoom = 0
 	scoped_accuracy = 0
-	screen_shake = 1
+	screen_shake = 0.7
 	bulk = 4
 	wielded_item_state = "boltaction-wielded"
 	fire_sound = 'sound/weapons/gunshot/new_sniper.ogg'
@@ -170,11 +170,11 @@
 
 /obj/item/weapon/gun/projectile/heavysniper/smle
 	name = "Lee-Enfield No.1 Mk.III*"
-	desc = "An old bolt action rifle from some forgotten war, still commonplace among farmers and colonists as an anti-varmint rifle. Holds ten rounds, a reliable standby."
+	desc = "An old bolt-action rifle from some forgotten war, still commonplace among farmers and colonists as an anti-varmint rifle. Holds ten rounds, a reliable standby."
 	icon = 'icons/obj/guns/leerifles.dmi'
 	icon_state = "smle"
 	item_state = "smle"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	origin_tech = list(TECH_COMBAT = 2)
 	caliber = CALIBER_RIFLE
 	ammo_type = /obj/item/ammo_casing/rifle
@@ -183,11 +183,32 @@
 	accuracy = 13
 	scope_zoom = 0
 	scoped_accuracy = 0
-	screen_shake = 1
+	screen_shake = 0.5
 	bulk = 8
 	wielded_item_state = "smle"
 	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
 	fire_delay = 2
+
+/obj/item/weapon/gun/projectile/heavysniper/smlescoped
+	name = "Lee-Enfield No.1 Mk.III* Scoped"
+	desc = "An old bolt-action rifle from some forgotten war, still commonplace among farmers and colonists as an anti-varmint rifle. Holds ten rounds, a reliable standby. This one has been fitted with an optical magnification device."
+	icon = 'icons/obj/guns/leerifles.dmi'
+	icon_state = "smlescoped"
+	item_state = "smlescoped"
+	w_class = ITEM_SIZE_HUGE
+	origin_tech = list(TECH_COMBAT = 3)
+	caliber = CALIBER_RIFLE
+	ammo_type = /obj/item/ammo_casing/rifle
+	load_method = SINGLE_CASING
+	max_shells = 10
+	accuracy = 3
+	scope_zoom = 2
+	scoped_accuracy = 15
+	screen_shake = 0.5
+	bulk = 8
+	wielded_item_state = "smle"
+	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
+	fire_delay = 3
 
 /obj/item/weapon/gun/projectile/heavysniper/enfield4
 	name = "Lee-Enfield No.4 Mk.I"
@@ -195,7 +216,7 @@
 	icon = 'icons/obj/guns/leerifles.dmi'
 	icon_state = "No. 4"
 	item_state = "No. 4"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	origin_tech = list(TECH_COMBAT = 2)
 	caliber = CALIBER_RIFLE
 	ammo_type = /obj/item/ammo_casing/rifle
@@ -204,11 +225,53 @@
 	accuracy = 12
 	scope_zoom = 0
 	scoped_accuracy = 0
-	screen_shake = 1
+	screen_shake = 0.5
 	bulk = 7
 	wielded_item_state = "No. 4"
 	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
 	fire_delay = 2
+
+/obj/item/weapon/gun/projectile/heavysniper/enfield4scoped
+	name = "Lee-Enfield No.4 Mk.I Scoped"
+	desc = "An old bolt action rifle from some forgotten war, still commonplace among farmers and colonists as an anti-varmint rifle. Holds ten rounds, a reliable, slightly updated standby. This one has been fitted with an optical magnification device."
+	icon = 'icons/obj/guns/leerifles.dmi'
+	icon_state = "no. 4scoped"
+	item_state = "no. 4scoped"
+	w_class = ITEM_SIZE_HUGE
+	origin_tech = list(TECH_COMBAT = 3)
+	caliber = CALIBER_RIFLE
+	ammo_type = /obj/item/ammo_casing/rifle
+	load_method = SINGLE_CASING
+	max_shells = 10
+	accuracy = 3
+	scope_zoom = 2
+	scoped_accuracy = 15
+	screen_shake = 0.5
+	bulk = 7
+	wielded_item_state = "No. 4"
+	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
+	fire_delay = 3
+
+/obj/item/weapon/gun/projectile/heavysniper/junglecarbine
+	name = "Lee-Enfield No.4 Mk.I"
+	desc = "An old bolt action rifle from some forgotten war, still commonplace among farmers and colonists as an anti-varmint rifle. Holds ten rounds, a reliable, slightly updated standby. This one has been shortened and lightened."
+	icon = 'icons/obj/guns/leerifles.dmi'
+	icon_state = "junglecarbine"
+	item_state = "junglecarbine"
+	w_class = ITEM_SIZE_LARGE
+	origin_tech = list(TECH_COMBAT = 2)
+	caliber = CALIBER_RIFLE
+	ammo_type = /obj/item/ammo_casing/rifle
+	load_method = SINGLE_CASING|SPEEDLOADER
+	max_shells = 10
+	accuracy = 4
+	scope_zoom = 0
+	scoped_accuracy = 0
+	screen_shake = 0.5
+	bulk = 4
+	wielded_item_state = "No. 4"
+	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
+	fire_delay = 1
 
 /obj/item/weapon/gun/projectile/hornetsniper
 	name = "Z2 Hornet"

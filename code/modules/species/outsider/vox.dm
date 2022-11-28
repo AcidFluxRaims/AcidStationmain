@@ -35,7 +35,7 @@
 
 	taste_sensitivity = TASTE_DULL
 	speech_sounds = list('sound/voice/shriek1.ogg')
-	speech_chance = 25
+	speech_chance = 10
 
 	warning_low_pressure = 50
 	hazard_low_pressure = -1
@@ -81,7 +81,7 @@
 		BP_HINDTONGUE = /obj/item/organ/internal/hindtongue
 		)
 
-	genders = list(NEUTER)
+	genders = list(NEUTER, FEMALE, MALE, PLURAL)
 	descriptors = list(
 		/datum/mob_descriptor/height = -1,
 		/datum/mob_descriptor/build = 1,
@@ -158,7 +158,7 @@
 	brute_mod = 0.6
 	burn_mod = 0.6
 	toxins_mod = 1.2
-	strength = STR_HIGH
+	strength = STR_VHIGH
 	mob_size = MOB_LARGE
 
 	bump_flag = HEAVY
@@ -168,7 +168,7 @@
 	species_flags = SPECIES_FLAG_NO_MINOR_CUT
 
 	speech_sounds = list('sound/voice/shriek1.ogg')
-	speech_chance = 25
+	speech_chance = 10
 
 	override_organ_types = list(BP_EYES = /obj/item/organ/internal/eyes/vox/armalis)
 

@@ -36,7 +36,8 @@
 						/datum/job/ai, /datum/job/cyborg,
 						/datum/job/crew, /datum/job/assistant,
 						/datum/job/merchant, /datum/job/symbiote),
-		/datum/species/human/mule = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant)
+		/datum/species/human/mule = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant),
+		/datum/species/mantid/gyne = list(/datum/job/crew, /datum/job/assistant)
 	)
 
 	species_to_job_blacklist = list(

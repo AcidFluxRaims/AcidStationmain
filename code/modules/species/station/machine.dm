@@ -14,7 +14,7 @@
 	unarmed_types = list(/datum/unarmed_attack/punch, /datum/unarmed_attack/kick, /datum/unarmed_attack/stomp)
 	rarity_value = 2
 	darksight_range = 16
-	darksight_tint = DARKTINT_NONE
+	darksight_tint = DARKTINT_GOOD
 	skin_material = MATERIAL_PLASTEEL
 	bone_material = MATERIAL_TITANIUM
 	strength = STR_IPC
@@ -55,9 +55,15 @@
 	body_temperature = null
 	passive_temp_gain = 0.5  // This should cause IPCs to stabilize at ~80 C in a 20 C environment.
 
-	species_flags = SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_PAIN | SPECIES_FLAG_NO_POISON | SPECIES_FLAG_NO_MINOR_CUT  | SPECIES_FLAG_NO_SLIP
+	species_flags = SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_PAIN | SPECIES_FLAG_NO_POISON | SPECIES_FLAG_NO_MINOR_CUT  | SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_HUNGER | SPECIES_FLAG_NO_THIRST
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION // | SPECIES_IS_WHITELISTED
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR | HAS_LIPS | RADIATION_GLOWS //IPCs can wear undies too :(
+	bump_flag =               HEAVY
+
+	descriptors = list(
+		/datum/mob_descriptor/height = 3,
+		/datum/mob_descriptor/build = 2
+		)
 
 	blood_color = "#1f181f"
 	flesh_color = "#575757"

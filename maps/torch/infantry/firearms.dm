@@ -165,7 +165,9 @@
 		/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/lmg = 5,
 		/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec = 5,
 		/obj/item/weapon/gun/projectile/automatic/assault_rifle = 4,
+		/obj/item/weapon/gun/projectile/automatic/brengun = 2,
 		/obj/item/weapon/gun/projectile/automatic/machine_pistol = 4,
+		/obj/item/weapon/gun/projectile/automatic/owen = 3,
 		/obj/item/weapon/gun/projectile/pistol/magnum_pistol = 2,
 		/obj/item/weapon/gun/projectile/revolver = 2,
 		/obj/item/weapon/gun/projectile/pistol/military = 4,
@@ -184,6 +186,9 @@
 		/obj/item/weapon/gun/projectile/automatic/fal = 3,
 		/obj/item/weapon/gun/projectile/heavysniper/enfield4 = 3,
 		/obj/item/weapon/gun/projectile/heavysniper/smle = 3,
+		/obj/item/weapon/gun/projectile/heavysniper/enfield4scoped = 1,
+		/obj/item/weapon/gun/projectile/heavysniper/smlescoped = 1,
+		/obj/item/weapon/gun/projectile/heavysniper/junglecarbine = 3,
 		/obj/item/weapon/gun/energy/leelaser = 2,
 		/obj/item/weapon/gun/energy/laser/infantry/sl = 3,
 		/obj/item/weapon/gun/projectile/automatic/lewisgun = 2,
@@ -191,7 +196,7 @@
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol2 = 2,
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol3 = 2,
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol4 = 2,
-		/obj/item/weapon/gun/projectile/shotgun/sabotgun = 2,
+		/obj/item/weapon/gun/projectile/shotgun/sabotgun = 2
 
 		)
 
@@ -217,11 +222,11 @@
 	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3)
 	ammo_type = /obj/item/ammo_casing/rifle/military/low
 	magazine_type = /obj/item/ammo_magazine/mil_rifle/sec
-	allowed_magazines = list(/obj/item/ammo_magazine/mil_rifle/sec, /obj/item/ammo_magazine/mil_rifle/sec/large)
+	allowed_magazines = list(/obj/item/ammo_magazine/mil_rifle/sec, /obj/item/ammo_magazine/mil_rifle/, /obj/item/ammo_magazine/mil_rifle/sec/large)
 	auto_eject = 1
 	starts_loaded = 1
 	one_hand_penalty = 6 //lower power rounds
-	jam_chance = 2
+	jam_chance = 3
 	authorized_modes = list(UNAUTHORIZED)
 	firemodes = list(
 		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
@@ -233,8 +238,8 @@
 /obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/b
 	name = "Z9B Pitbull"
 	desc = "The Hephaestus Industries Z9B Pitbull is an experimental design of the standard Z9. Having an enforced fire-rate for use aboard civilian heavy areas, it does away with some of the use. \
-	Because of the limited fire-rate, and how the mechanism functions, it has a much higher jam rate."
-	jam_chance = 5
+	Because of the limited fire-rate, and how the mechanism functions, it has a much lower jam rate."
+	jam_chance = 1
 	firemodes = list(
 		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
 		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null, dispersion=null)
@@ -285,6 +290,23 @@
 		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=null),
 		list(mode_name="burst fire", burst=4, fire_delay=1, move_delay=1, one_hand_penalty=6, burst_accuracy=null, dispersion=null)
 		)
+
+///obj/item/weapon/gun/energy/laser/infantry/owen - Waiting on Bowie to finish this.
+//	name = "Owen Laser Conversion"
+//	desc = "An Owen-design laser conversion, light, fast, and effective... but with a limited energy capacity."
+//	icon = 'icons/obj/guns/laser_carbine.dmi'
+//	icon_state = "owenlaser"
+//	item_state = "owenlaser"
+//	slot_flags = SLOT_BACK, SLOT_BELT
+//	w_class = ITEM_SIZE_NORMAL
+//	force = 5
+//	fire_delay = 3
+//	one_hand_penalty = 0
+//	bulk = null
+//	firemodes = list(
+//		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=null, burst_accuracy=null, dispersion=null),
+//		list(mode_name="burst fire", burst=4, fire_delay=1, move_delay=1, one_hand_penalty=3, burst_accuracy=null, dispersion=null)
+//		)
 
 /obj/item/weapon/gun/energy/laser/infantry/sl/armcannonlaser
 	name = "Internal Automatic Laser System"
@@ -366,11 +388,11 @@
 	wielded_item_state = "sexyshotgun-wielded"
 	w_class = ITEM_SIZE_HUGE
 	slot_flags = SLOT_BACK
-	load_method = SINGLE_CASING
+	load_method = SINGLE_CASING|SPEEDLOADER
 	handle_casings = EJECT_CASINGS
 	max_shells = 12
-	ammo_type = /obj/item/ammo_casing/sabot
-	caliber = CALIBER_SABOT
+	ammo_type = /obj/item/ammo_casing/shotgun/pellet
+	caliber = CALIBER_SHOTGUN
 	authorized_modes = list(UNAUTHORIZED)
 	jam_chance = 12 //big ol' gun. Purely for balance.
 	base_parry_chance = 20

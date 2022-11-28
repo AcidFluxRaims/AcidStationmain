@@ -153,6 +153,8 @@
 	push_flags =              ALLMOBS
 	swap_flags =              ALLMOBS
 
+	spawn_flags =             SPECIES_CAN_JOIN | SPECIES_IS_RESTRICTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
+
 	override_limb_types = list(
 		BP_HEAD = /obj/item/organ/external/head/insectoid/mantid,
 		BP_GROIN = /obj/item/organ/external/groin/insectoid/mantid/gyne

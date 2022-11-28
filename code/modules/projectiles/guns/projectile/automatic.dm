@@ -14,7 +14,7 @@
 	magazine_type = /obj/item/ammo_magazine/proto_smg
 	allowed_magazines = /obj/item/ammo_magazine/proto_smg
 	multi_aim = 1
-	burst_delay = 2
+	burst_delay = 1
 	fire_sound = 'sound/weapons/gunshot/new_gunshot_4mm.ogg'
 	mag_insert_sound = 'sound/weapons/guns/interaction/smg_magin.ogg'
 	mag_remove_sound = 'sound/weapons/guns/interaction/smg_magout.ogg'
@@ -89,6 +89,46 @@
 		list(mode_name="suppression fire",   burst=10, fire_delay=null, move_delay=0,    one_hand_penalty=0, burst_accuracy=list(0,0,0,0,0,0), burst_delay = 1.5, dispersion=list(0.6, 1.0, 1.0, 1.0, 1.0, 1.0)),
 		)
 
+/obj/item/weapon/gun/projectile/automatic/brengun
+	name = "BREN light machine gun"
+	icon = 'icons/obj/guns/brengun.dmi'
+	icon_state = "bren"
+	item_state = "bren"
+	desc = "A heavy, old design, updated for modern combat. Reliable and accurate."
+	w_class = ITEM_SIZE_HUGE
+	force = 10
+	caliber = CALIBER_RIFLE
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ESOTERIC = 2)
+	slot_flags = null
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/rifle
+	allowed_magazines = /obj/item/ammo_magazine/rifle
+	one_hand_penalty = 4
+	accuracy_power = 3
+	accuracy = 3
+	fire_delay = 0
+	burst_delay = 2
+	bulk = GUN_BULK_RIFLE + 2
+	has_safety = 1
+	fire_sound = 'sound/weapons/gunshot/acidbrenfire.ogg'
+	mag_insert_sound = 'sound/weapons/guns/interaction/ltrifle_magin.ogg'
+	mag_remove_sound = 'sound/weapons/guns/interaction/ltrifle_magout.ogg'
+	base_parry_chance = 20
+
+	//LMG, burst fire degrades quicker than SMG, worse one-handing penalty, slightly increased move delay
+	firemodes = list(
+		list(mode_name="single shot",       burst=1, fire_delay=null,    move_delay=null, one_hand_penalty=4, burst_delay = 0, burst_accuracy=null, dispersion=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=1,    one_hand_penalty=6, burst_delay = 2, burst_accuracy=list(0,0,-1),       dispersion=list(0.0, 0.6, 1.0)),
+		list(mode_name="suppression fire",   burst=6, fire_delay=null, move_delay=1,    one_hand_penalty=8, burst_accuracy=list(0,0,-1,-1,-2,-2), burst_delay = 2, dispersion=list(0.6, 1.0, 1.0, 1.0, 1.2, 1.2)),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/brengun/on_update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "bren"
+	else
+		icon_state = "bren-empty"
+
 /obj/item/weapon/gun/projectile/automatic/machine_pistol
 	name = "M6 Vesper"
 	desc = "The Hephaestus Industries MP6 Vesper, A fairly common machine pistol. Sometimes refered to as an 'uzi' by the backwater spacers it is often associated with."
@@ -125,6 +165,37 @@
 		return
 	else
 		overlays += image(icon, "ammo_ok")
+
+/obj/item/weapon/gun/projectile/automatic/owen
+	name = "Owen submachine gun"
+	desc = "A light, stable, easy to use and manufacture weapon firing from an open bolt. Uses Vesper magazines."
+	icon = 'icons/obj/guns/leerifles.dmi'
+	icon_state = "owen"
+	safety_icon = "safety"
+	item_state = "owen"
+	caliber = CALIBER_PISTOL
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ESOTERIC = 2)
+	ammo_type = /obj/item/ammo_casing/pistol
+	magazine_type = /obj/item/ammo_magazine/machine_pistol
+	allowed_magazines = /obj/item/ammo_magazine/machine_pistol //more damage compared to the wt550, smaller mag size
+	one_hand_penalty = 0
+	fire_delay = 0
+	burst_delay = 1.5
+	fire_sound = 'sound/weapons/gunshot/acidSMGheavy.ogg'
+
+	firemodes = list(
+		list(mode_name="semi auto",       burst=1, fire_delay=null,    move_delay=null, one_hand_penalty=0, burst_accuracy=null, dispersion=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=2,    one_hand_penalty=3, burst_accuracy=list(0,-1,-1),       dispersion=list(0.0, 0.6, 0.6)),
+		list(mode_name="controlled bursts",   burst=6, fire_delay=null, move_delay=4,    one_hand_penalty=6, burst_accuracy=list(0,-1,-1,-1,-2,-2,-3,-3), dispersion=list(0.6, 0.6, 1.0, 1.0, 1.2, 1.2, 1.4, 1.4)),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/owen/on_update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "owen"
+	else
+		icon_state = "owen-empty"
+
 
 /obj/item/weapon/gun/projectile/automatic/merc_smg
 	name = "C-20r"
@@ -180,7 +251,7 @@
 	w_class = ITEM_SIZE_HUGE
 	force = 10
 	caliber = CALIBER_RIFLE
-	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 1, TECH_ESOTERIC = 5)
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 1, TECH_ESOTERIC = 2)
 	slot_flags = SLOT_BACK
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/rifle
@@ -229,6 +300,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/smg_top
 	accuracy_power = 7
 	one_hand_penalty = 3
+	burst_delay = 1
 	fire_sound = 'sound/weapons/gunshot/acidSMGlight.ogg'
 
 	//machine pistol, like SMG but easier to one-hand with
