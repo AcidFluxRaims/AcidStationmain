@@ -253,7 +253,7 @@
 	fire_delay = 3
 
 /obj/item/weapon/gun/projectile/heavysniper/junglecarbine
-	name = "Lee-Enfield No.4 Mk.I"
+	name = "Lee-Enfield No.5 Mk.I carbine"
 	desc = "An old bolt action rifle from some forgotten war, still commonplace among farmers and colonists as an anti-varmint rifle. Holds ten rounds, a reliable, slightly updated standby. This one has been shortened and lightened."
 	icon = 'icons/obj/guns/leerifles.dmi'
 	icon_state = "junglecarbine"
