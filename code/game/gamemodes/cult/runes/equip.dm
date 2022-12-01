@@ -1,5 +1,5 @@
 //equips the user with a predetermined outfit as determined by the outfit datums system. See ../datums/outfits/cult.dm
-//Might drop a Vox's gas tank but honestly who cares. Fuck the Vox.
+//Might drop a Vox's gas tank but honestly who cares. Fuck the Vox. - No.
 /obj/effect/rune/equip
 	cultname = "summon robes"
 	strokes = 3

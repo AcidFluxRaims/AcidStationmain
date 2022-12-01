@@ -12,6 +12,12 @@
 						/datum/job/senior_scientist, /datum/job/scientist, /datum/job/roboticist, /datum/job/scientist_assistant,
 						/datum/job/ai, /datum/job/cyborg,
 						/datum/job/crew, /datum/job/assistant,
+						/datum/job/merchant, /datum/job/symbiote),
+	/datum/species/mantid = list(/datum/job/explorer,/datum/job/engineer, /datum/job/engineer_trainee, /datum/job/seccadet,
+						/datum/job/grunt, /datum/job/medical_trainee, /datum/job/cargo_tech, /datum/job/mining,
+						/datum/job/janitor, /datum/job/chef, /datum/job/bartender, /datum/job/scientist_assistant,
+						/datum/job/ai, /datum/job/cyborg,
+						/datum/job/crew, /datum/job/assistant,
 						/datum/job/merchant, /datum/job/symbiote))
 	var/species_to_job_blacklist = list()
 
