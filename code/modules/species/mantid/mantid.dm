@@ -53,7 +53,7 @@
 
 	appearance_flags =        0
 	species_flags =           SPECIES_FLAG_NO_SCAN  | SPECIES_FLAG_NO_SLIP        | SPECIES_FLAG_NO_MINOR_CUT
-	spawn_flags =             SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
+	spawn_flags =             SPECIES_IS_RESTRICTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
 
 	heat_discomfort_strings = list(
 		"You feel brittle and overheated.",
@@ -95,7 +95,7 @@
 		BP_SYSTEM_CONTROLLER = /obj/item/organ/internal/controller
 	)
 
-	available_cultural_info = list(
+	force_cultural_info = list(
 		TAG_CULTURE =   CULTURE_ASCENT,
 		TAG_HOMEWORLD = HOME_SYSTEM_KHARMAANI,
 		TAG_FACTION =   FACTION_ASCENT_ALATE,
@@ -153,9 +153,7 @@
 	push_flags =              ALLMOBS
 	swap_flags =              ALLMOBS
 
-	spawn_flags =             SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
-
-	hidden_from_codex = FALSE
+	spawn_flags =             SPECIES_CAN_JOIN | SPECIES_IS_RESTRICTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
 
 	override_limb_types = list(
 		BP_HEAD = /obj/item/organ/external/head/insectoid/mantid,

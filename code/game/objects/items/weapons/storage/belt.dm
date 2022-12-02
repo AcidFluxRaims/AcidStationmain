@@ -448,7 +448,7 @@
 
 /obj/item/weapon/storage/belt/holster/security/tactical/Initialize()
 	.=..()
-	slowdown_per_slot[slot_belt] = 1
+	slowdown_per_slot[slot_belt] = 0
 
 /obj/item/weapon/storage/belt/waistpack
 	name = "waist pack"
@@ -467,11 +467,11 @@
 	item_state = "fannypack_big_white"
 	w_class = ITEM_SIZE_LARGE
 	max_w_class = ITEM_SIZE_NORMAL
-	max_storage_space = ITEM_SIZE_NORMAL * 4
+	max_storage_space = ITEM_SIZE_NORMAL * 6
 
 /obj/item/weapon/storage/belt/waistpack/big/Initialize()
 	.=..()
-	slowdown_per_slot[slot_belt] = 1
+	slowdown_per_slot[slot_belt] = 0
 
 /obj/item/weapon/storage/belt/fire_belt
 	name = "firefighting equipment belt"

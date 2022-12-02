@@ -161,6 +161,8 @@
 	#include "torch6_bridge.dmm"
 	#include "z1_admin.dmm"
 	#include "z2_transit.dmm"
+	#include "torch7_colony.dmm"
+
 
 	#include "../away/empty.dmm"
 	#include "../away/ascent/ascent.dm"

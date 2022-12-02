@@ -396,6 +396,7 @@
 	authorized_modes = list(UNAUTHORIZED)
 	jam_chance = 12 //big ol' gun. Purely for balance.
 	base_parry_chance = 20
+	fire_sound = 'sound/weapons/gunshot/acidarmcannon4.ogg'
 	firemodes = list(
 		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
 		)

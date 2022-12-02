@@ -372,6 +372,7 @@
 		'html/images/loading.gif',
 		'html/images/ntlogo.png',
 		'html/images/bluentlogo.png',
+		'html/images/IFSSIndependencelogo.png',
 		'html/images/sollogo.png',
 		'html/images/terralogo.png',
 		'html/images/talisman.png',

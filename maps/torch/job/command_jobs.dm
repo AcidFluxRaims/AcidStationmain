@@ -306,18 +306,18 @@
 	spawn_positions = 1
 	supervisors = "the Commanding Officer"
 	selection_color = "#2f2f7f"
-	economic_power = 15
+	economic_power = 45
 	minimal_player_age = 5
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/representative
-	allowed_branches = list(/datum/mil_branch/solgov)
-	allowed_ranks = list(/datum/mil_rank/sol/gov)
+	allowed_branches = list(/datum/mil_branch/civilian)
+	allowed_ranks = list(/datum/mil_rank/civ/contractor)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_EXPERT,
 	                    SKILL_FINANCE     = SKILL_BASIC)
 
 	skill_points = 20
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 
-	access = list(access_security, access_sec_doors, access_brig, access_representative, access_maint_tunnels, access_security, access_medical,
+	access = list(access_security, access_maint_tunnels,
 			            access_bridge, access_cargo, access_solgov_crew, access_hangar)
 
 	software_on_spawn = list(/datum/computer_file/program/reports)

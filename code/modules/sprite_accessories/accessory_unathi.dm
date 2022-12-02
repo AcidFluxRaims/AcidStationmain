@@ -29,6 +29,10 @@
 	name = "Swept Horns"
 	icon_state = "swept_horn"
 
+/datum/sprite_accessory/hair/una/swept_horn_broken
+	name = "Swept Horns Broken"
+	icon_state = "swept_horn_broken"
+
 /datum/sprite_accessory/hair/una/ram_horn
 	name = "Ram Horns"
 	icon_state = "ram_horn"

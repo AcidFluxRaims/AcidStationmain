@@ -259,18 +259,23 @@ obj/item/clothing/shoes/heels/red
 	desc = "A roll of treated cloth used for wrapping clawed feet."
 	icon_state = "clothwrap"
 	w_class = ITEM_SIZE_TINY
+	species_restricted = list("Unathi","Yeosa'Unathi","IPC", "Genemodder")
 
 /obj/item/clothing/shoes/gildedwraps
 	name = "gilded leg wraps"
 	desc = "Ankle coverings for digitigrade creatures. Gilded in gold!"
 	icon_state = "gildedwrap"
 	w_class = ITEM_SIZE_TINY
+	species_restricted = list("Unathi","Yeosa'Unathi","IPC", "Genemodder")
+
 
 /obj/item/clothing/shoes/silverwraps
 	name = "silver leg wraps"
 	desc = "Ankle coverings for digitigrade creatures. It's silver!"
 	icon_state = "silverwrap"
 	w_class = ITEM_SIZE_TINY
+	species_restricted = list("Unathi","Yeosa'Unathi","IPC", "Genemodder")
+
 
 /obj/item/clothing/shoes/puttee
 	name = "Puttee boots"

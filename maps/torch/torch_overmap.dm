@@ -77,7 +77,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
 	name = "IFEV Gaunt"
-	desc = "A medium-sized long-range shuttle. It bears markings of the NanoTrasen Surveyor Corps."
+	desc = "A medium-sized long-range shuttle. It bears markings of the NanoTrasen Surveyor Corps, now scratched and defiled."
 	shuttle = "IFEV Gaunt"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
@@ -88,7 +88,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/aquila
 	name = "IFSC Byakhee"
-	desc = "A vessel escort gunship. It bears markings of the NanoTrasen Surveyor Corps."
+	desc = "A vessel escort gunship. It bears markings of the NanoTrasen Surveyor Corps, now scratched off and defiled."
 	shuttle = "IFSC Byakhee"
 	vessel_mass = 20000
 	max_speed = 1/(1 SECONDS)
@@ -98,7 +98,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/guppy
 	name = "IFRP Garuda"
-	desc = "A small recovery pod. It's capable of limited independant space travel. It's marked as 'NTRP Garuda'."
+	desc = "A small recovery pod. It's capable of limited independant space travel. It's marked as 'IFRP Garuda'."
 	shuttle = "IFRP Garuda"
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
