@@ -10,7 +10,7 @@ Not much else to it.
 	distance_falloff = 2
 
 /obj/item/projectile/beam/heavylaser/mech
-	damage = 25
+	damage = 35
 
 //Mech
 

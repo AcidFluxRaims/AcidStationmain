@@ -17,12 +17,12 @@
 	station_name  = "IFSS Independence"
 	station_short = "Independence"
 	dock_name     = "TBD"
-	boss_name     = "Central Command"
-	boss_short    = "Central"
+	boss_name     = "Independence Colony"
+	boss_short    = "Colony"
 	company_name  = "Independent Force"
 	company_short = "IF"
 
-	map_admin_faxes = list("Corporate Central Office")
+	map_admin_faxes = list("Free Space Assistance Department")
 
 	//These should probably be moved into the evac controller...
 	shuttle_docked_message = "Attention all hands: Jump preparation complete. The bluespace drive is now spooling up, secure all stations for departure. Time to jump: approximately %ETD%."

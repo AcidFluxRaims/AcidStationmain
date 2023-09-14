@@ -48,6 +48,7 @@
 #define HOME_SYSTEM_STATELESS  "Stateless"
 #define HOME_SYSTEM_OTHER      "Other System"
 #define HOME_SYSTEM_DEEP_SPACE "Deep Space"
+#define HOME_SYSTEM_TERSTEN    "Tersten"
 
 #define CULTURE_OTHER          "Other Culture"
 #define CULTURE_HUMAN          "Humankind"
@@ -74,6 +75,7 @@
 #define CULTURE_ALIUM          "Mysterious Aliens"
 #define CULTURE_CULTIST        "Blood Cult"
 #define CULTURE_SYMBIOTIC      "Symbiote Host"
+#define CULTURE_HUMAN_TERSTEN  "Terstener"
 
 #define RELIGION_OTHER         "Other Religion"
 #define RELIGION_JUDAISM       "Judaism"
@@ -159,6 +161,7 @@
 #define CULTURE_UNATHI              "Moghes Hegemony"
 
 #define HOME_SYSTEM_MOGHES          "Moghes"
+#define HOME_SYSTEM_TERSTENUNATHI   "Tersten"
 
 #define FACTION_UNATHI_POLAR        "Polar Clans"
 #define FACTION_UNATHI_DESERT       "Desert Clans"
@@ -171,6 +174,7 @@
 #define RELIGION_UNATHI_PRECURSOR    "Precursor"
 #define RELIGION_UNATHI_VINE         "Hand of the Vine"
 #define RELIGION_UNATHI_LIGHTS       "The Fruitful Lights"
+#define RELIGION_UNATHI_AGA          "Aga-Eakhe"
 
 // Nabber grades.
 #define CULTURE_NABBER_CMINUS "Grade C-"
@@ -182,6 +186,7 @@
 #define CULTURE_NABBER_AMINUS "Grade A-"
 #define CULTURE_NABBER_A      "Grade A"
 #define CULTURE_NABBER_APLUS  "Grade A+"
+#define CULTURE_NABBER_SPECIAL "Special Grade"
 
 // Ascent culture.
 #define CULTURE_ASCENT           "The Ascent"

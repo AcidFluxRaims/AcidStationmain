@@ -22,3 +22,10 @@
 	world for yourself and your clan? The Fruitful Lights want to create that world for the Unathi. Similar to the followers of the Precursors \
 	in a sense, but rather than relying on them and what they made entirely, the followers of the Lights believe it should Unathi ingenuity and \
 	engineering that brings the Golden Age for their people."
+
+/decl/cultural_info/religion/unathi_aga
+	name = RELIGION_UNATHI_AGA
+	description = "Traditional Yeosa religion that is based on totemic worship of the ancestors and their stories, which are depicted by the great \
+	and monstrous sea creatures dwelling near the ocean beds. Revered by the Yeosa, those physical avatars of the great ancient ones rest beneath \
+	the dark waters, their mere movements causing current changes. Aga-Eakhe has its own oral tradition and religious tenets, designed to facilitate \
+	the survival of the Yeosa upon Moghes, with those religious laws being upheld and furthered by the majority of the World Sea clans."

@@ -245,3 +245,15 @@
 	economic_power = 0.8
 	secondary_langs = list(LANGUAGE_HUMAN_GAIAN)
 	ruling_body = "Magnitka"
+
+/decl/cultural_info/location/human/tersten
+	name = HOME_SYSTEM_TERSTEN
+	distance = "52 light years"
+	description = "Tersten is a large plains world in the Gavil system. With vast mountain ranges, prairies, mesas, forests, and deserts, it is a diverse planet. \
+	The capital city is Tersten City, formerly known as Freetown. Originally founded as a penal colony, the planet abolished this system in 2480 through popular vote and the mild support of SolGov. \
+	It is the fourth-largest supplier of food for the Sol Central Government and NanoTrasen, and additionally manufactures electronics and building materials. The planet's population is primarily \
+	divided into northern urban Tersteners who are often seen in one arm of the military or the other; alternately the southern rural Tersteners who generally are the ranchers, hunters, trappers, \
+	and farmers of the planet. Several corporations also hold offices and manufactories on the planet."
+	capital = "Tersten City"
+	economic_power = 0.8
+	ruling_body = "Sol Central Government"

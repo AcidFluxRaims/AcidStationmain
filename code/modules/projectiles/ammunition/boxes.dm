@@ -401,6 +401,17 @@
 	max_ammo = 30
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/aks74u
+	name = "AKS-74U magazine"
+	icon_state = "aks74u"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	caliber = CALIBER_RIFLE_MILITARY
+	matter = list(MATERIAL_PLASTIC = 1800)
+	ammo_type = /obj/item/ammo_casing/rifle/military
+	max_ammo = 30
+	multiple_sprites = 0
+
 /obj/item/ammo_magazine/mil_rifle
 	name = "Z9 assault rifle magazine, standard"
 	icon_state = "bullup"

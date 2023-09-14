@@ -74,6 +74,26 @@
 	fire_delay = 7
 	fire_sound = 'sound/weapons/gunshot/acidrevolverlight.ogg'
 
+/obj/item/weapon/gun/projectile/revolver/schofield
+	name = "Schofield revolver"
+	desc = "An ancient break-action revolver. Novel action makes it easy to quickly reload by hand."
+	icon = 'icons/obj/guns/revolvers.dmi'
+	icon_state = "schofield"
+	caliber = CALIBER_PISTOL_MAGNUM
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
+	handle_casings = CYCLE_CASINGS
+	max_shells = 6
+	fire_delay = 4 //Revolvers are naturally slower-firing
+	ammo_type = /obj/item/ammo_casing/pistol/magnum
+	mag_insert_sound = 'sound/weapons/guns/interaction/rev_magin.ogg'
+	mag_remove_sound = 'sound/weapons/guns/interaction/rev_magout.ogg'
+	fire_sound = 'sound/weapons/gunshot/acidheavypistol.ogg'
+	accuracy = 2
+	accuracy_power = 4
+	one_hand_penalty = 0
+	bulk = 3
+	base_parry_chance = 5
+
 /obj/item/weapon/gun/projectile/revolver/capgun
 	name = "cap gun"
 	desc = "Looks almost like the real thing! Ages 8 and up."

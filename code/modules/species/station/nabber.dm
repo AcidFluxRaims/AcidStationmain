@@ -42,12 +42,12 @@
 
 	darksight_range = 8
 	darksight_tint = DARKTINT_GOOD
-	slowdown = -0.5
+	slowdown = -0.7
 	rarity_value = 4
 	hud_type = /datum/hud_data/nabber
 
-	total_health = 200
-	brute_mod = 0.9
+	total_health = 300
+	brute_mod = 0.8
 	burn_mod =  1.35
 	natural_armour_values = list(
 		melee = ARMOR_MELEE_KNIVES,
@@ -59,7 +59,7 @@
 
 	gluttonous = GLUT_SMALLER
 	mob_size = MOB_LARGE
-	strength = STR_HIGH
+	strength = STR_VHIGH
 	breath_pressure = 25
 	blood_volume = 840
 	spawns_with_stack = 0
@@ -128,7 +128,8 @@
 			CULTURE_NABBER_BPLUS,
 			CULTURE_NABBER_AMINUS,
 			CULTURE_NABBER_A,
-			CULTURE_NABBER_APLUS
+			CULTURE_NABBER_APLUS,
+			CULTURE_NABBER_SPECIAL
 		),
 		TAG_HOMEWORLD = list(
 			HOME_SYSTEM_SERPENTIDS

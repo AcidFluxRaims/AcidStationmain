@@ -12,7 +12,9 @@
 						/datum/job/senior_scientist, /datum/job/scientist, /datum/job/roboticist, /datum/job/scientist_assistant,
 						/datum/job/ai, /datum/job/cyborg,
 						/datum/job/crew, /datum/job/assistant,
-						/datum/job/merchant, /datum/job/symbiote))
+						/datum/job/merchant, /datum/job/symbiote),
+			/datum/species/mantid/gyne = list(/datum/job/crew, /datum/job/assistant)
+		)
 	var/species_to_job_blacklist = list()
 
 	var/job_to_species_whitelist = list()

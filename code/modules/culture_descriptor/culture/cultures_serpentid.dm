@@ -1,7 +1,7 @@
 // See specific map job files for valid jobs. They use types so cannot be compiled at this level.
 /decl/cultural_info/culture/nabber
 	name = CULTURE_NABBER_CMINUS
-	
+
 	description = "You have been trained to Xynergy Grade PLACEHOLDER."
 	language = LANGUAGE_NABBER
 	secondary_langs = list(
@@ -29,7 +29,7 @@
 		LAZYADD(job_titles, initial(job.title))
 	if(!LAZYLEN(job_titles))
 		LAZYADD(job_titles, "none")
-	description = "You have been trained by Xynergy to [name]. This makes you suitable for the following roles: [english_list(job_titles)]."
+	description = "You have been trained by Xynergy to [name]. This makes you suitable for the following roles: [english_list(job_titles)]. The captain core of the Independence has also familiarized you with things Xynergy never would have done, attempting to make you more comfortable with the crew and operations in general."
 
 	// Set up our qualifications.
 	LAZYADD(qualifications, "<b>[name]</b>")
@@ -66,3 +66,8 @@
 
 /decl/cultural_info/culture/nabber/a/plus
 	name = CULTURE_NABBER_APLUS
+
+/decl/cultural_info/culture/nabber/a/special
+	name = CULTURE_NABBER_SPECIAL
+	description = "Initially trained by Xynergy, then by the top crew of the Independence in a much less harsh way, you are trusted with and conditioned to weaponry, exploration roles, and other duties that you were not trusted with before."
+	valid_jobs = list(/datum/job/combat_tech, /datum/job/chemist, /datum/job/officer, /datum/job/bodyguard, /datum/job/scientist_assistant)
