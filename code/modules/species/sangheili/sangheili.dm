@@ -21,14 +21,16 @@ GLOBAL_LIST_INIT(last_names_sangheili, world.file2list('code/modules/species/san
 	blood_mask = 'code/modules/species/sangheili/blood_elite.dmi'
 	species_flags = SPECIES_FLAG_NO_MINOR_CUT
 	total_health = 260 // Stronger than humans at base health.
-	radiation_mod = 0.6 //Covie weapons emit beta radiation. Resistant to 1/3 types of radiation.
+	radiation_mod = 0.4 //Covie weapons emit beta radiation. Resistant to 1/3 types of radiation.
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_SKIN_COLOR | HAS_EYE_COLOR
-	brute_mod = 0.8
-	burn_mod = 0.8
+	brute_mod = 0.7
+	burn_mod = 0.7
 	slowdown = -0.1
+	blood_volume = 1400
 	strength = STR_VHIGH
 	pixel_offset_x = -8
+	mob_size = MOB_LARGE
 	//item_icon_offsets = list(list(9,6),list(9,6),null,list(6,6),null,null,null,list(6,6),null)
 	//inhand_icon_offsets = list(list(6,-4),list(-6,-4),null,list(2,-4),null,null,null,list(2,-4),null)
 	//inter_hand_dist = 9
@@ -36,6 +38,13 @@ GLOBAL_LIST_INIT(last_names_sangheili, world.file2list('code/modules/species/san
 	unarmed_types = list(/datum/unarmed_attack/elite_punch)
 	gibbed_anim = null
 	dusted_anim = null
+	bump_flag = HEAVY
+	push_flags = ALLMOBS
+	swap_flags = ALLMOBS
+	descriptors = list(
+		/datum/mob_descriptor/height = 2,
+		/datum/mob_descriptor/build = 2
+	)
 
 	has_limbs = list(
 		BP_CHEST =  list("path" = /obj/item/organ/external/chest),
@@ -93,9 +102,19 @@ GLOBAL_LIST_INIT(last_names_sangheili, world.file2list('code/modules/species/san
 	eye_attack_text_victim = "digits"
 	damage = 15
 
+/datum/species/sangheili/New()
+	..()
+	equip_adjust = list(
+		slot_l_hand_str = list("[NORTH]" = list("x" = 0, "y" = 4), "[EAST]" = list("x" = -3, "y" = 4), "[SOUTH]" = list("x" = 0, "y" = 4), "[WEST]" = list("x" =  3, "y" = 4)),
+		slot_r_hand_str = list("[NORTH]" = list("x" = 0, "y" = 4), "[EAST]" = list("x" =  3, "y" = 4), "[SOUTH]" = list("x" = 0, "y" = 4), "[WEST]" = list("x" = -3, "y" = 4)),
+		slot_belt_str =   list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" = -4, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  4, "y" = 8)),
+		slot_l_ear_str =  list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" =  6, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  8, "y" = 8)),
+		slot_r_ear_str =  list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" =  8, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  6, "y" = 8))
+		)
+
 ///obj/item/organ/external/head/sangheili
 //	eye_icon = "eyes_s"
 //	eye_icon_location = 'code/modules/halo/covenant/species/sangheili/r_elite.dmi'
 
-/mob/living/carbon/human/covenant/sangheili/New(var/new_loc)
-	. = ..(new_loc,"Sangheili")
+///mob/living/carbon/human/covenant/sangheili/New(var/new_loc)
+//	. = ..(new_loc,"Sangheili")

@@ -72,7 +72,7 @@
 
 /decl/ship_contact_class/dagon
 	class_short = "MAKO"
-	class_long = "Mako-Class Frigate"
+	class_long = "Mako-Class Corvette"
 	max_ship_mass = 100000
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
@@ -98,7 +98,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/guppy
 	name = "IFRP Garuda"
-	desc = "A small recovery pod. It's capable of limited independant space travel. It's marked as 'IFRP Garuda'."
+	desc = "A small recovery pod. It's capable of limited independent space travel. It's marked as 'IFRP Garuda'."
 	shuttle = "IFRP Garuda"
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS

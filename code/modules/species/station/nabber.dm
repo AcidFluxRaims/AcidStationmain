@@ -40,7 +40,7 @@
 
 	limb_blend = ICON_MULTIPLY
 
-	darksight_range = 8
+	darksight_range = 12
 	darksight_tint = DARKTINT_GOOD
 	slowdown = -0.7
 	rarity_value = 4

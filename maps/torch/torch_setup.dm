@@ -31,8 +31,8 @@
 
 	welcome_text += "Current Coordinates:<br /><b>[torch.x]:[torch.y]</b><br /><br>"
 	welcome_text += "Next system targeted for jump:<br /><b>[generate_system_name()]</b><br /><br>"
-	welcome_text += "Travel time to Sol:<br /><b>[rand(15,45)] days</b><br /><br>"
-	welcome_text += "Time since last port visit:<br /><b>[rand(60,180)] days</b><br /><hr>"
+	welcome_text += "Travel time to Sol:<br /><b>[rand(25,65)] days</b><br /><br>"
+	welcome_text += "Time since last port visit:<br /><b>[rand(1,20)] days</b><br /><hr>"
 	welcome_text += "Scan results show the following points of interest:<br />"
 
 	for(var/zlevel in map_sectors)
