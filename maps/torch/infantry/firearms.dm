@@ -163,6 +163,7 @@
 		/obj/item/ammo_magazine/pistol/throwback/pistol2 = 15,
 		/obj/item/ammo_magazine/pistol/throwback/pistol3 = 15,
 		/obj/item/ammo_magazine/pistol/throwback/pistol4 = 15,
+		/obj/item/ammo_magazine/elitesniper = 10,
 		/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/lmg = 5,
 		/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec = 5,
 		/obj/item/weapon/gun/projectile/automatic/assault_rifle = 4,
@@ -199,7 +200,55 @@
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol2 = 2,
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol3 = 2,
 		/obj/item/weapon/gun/projectile/pistol/throwback/pistol4 = 2,
-		/obj/item/weapon/gun/projectile/shotgun/sabotgun = 2
+		/obj/item/weapon/gun/projectile/shotgun/sabotgun = 2,
+		/obj/item/weapon/gun/projectile/heavysniper/elitesniper = 2
+
+		)
+
+//putting Sangheili stuff vendor in this for now.
+/obj/machinery/vending/sangheili
+	name = "Sangheili Equipment vendor"
+	desc = "Equipment for the alien Sangheili"
+	products = list(
+		/obj/item/weapon/storage/backpack/sangheili = 5,
+		/obj/item/clothing/head/helmet/sangheili/minor = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/minor = 5,
+		/obj/item/clothing/shoes/sangheili/minor = 5,
+		/obj/item/clothing/gloves/thick/sangheili/minor = 5,
+		/obj/item/clothing/head/helmet/sangheili/major = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/major = 5,
+		/obj/item/clothing/shoes/sangheili/major = 5,
+		/obj/item/clothing/gloves/thick/sangheili/major = 5,
+		/obj/item/clothing/head/helmet/sangheili/honour_guard = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/honour_guard = 5,
+		/obj/item/clothing/shoes/sangheili/honour_guard = 5,
+		/obj/item/clothing/gloves/thick/sangheili/honour_guard = 5,
+		/obj/item/clothing/head/helmet/sangheili/ultra = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/ultra = 5,
+		/obj/item/clothing/shoes/sangheili/ultra = 5,
+		/obj/item/clothing/gloves/thick/sangheili/ultra = 5,
+		/obj/item/clothing/head/helmet/sangheili/zealot = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/zealot = 5,
+		/obj/item/clothing/shoes/sangheili/zealot = 5,
+		/obj/item/clothing/gloves/thick/sangheili/zealot = 5,
+		/obj/item/clothing/head/helmet/sangheili/shipmaster = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/shipmaster = 5,
+		/obj/item/clothing/shoes/sangheili/shipmaster = 5,
+		/obj/item/clothing/gloves/thick/sangheili/shipmaster = 5,
+		/obj/item/clothing/head/helmet/sangheili/specops = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/specops = 5,
+		/obj/item/clothing/shoes/sangheili/specops = 5,
+		/obj/item/clothing/gloves/thick/sangheili/specops = 5,
+		/obj/item/clothing/head/helmet/sangheili/silentshadow = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/silentshadow = 5,
+		/obj/item/clothing/shoes/magboots/sangheili/silentshadow = 5,
+		/obj/item/clothing/gloves/thick/sangheili/silentshadow = 5,
+		/obj/item/clothing/head/helmet/sangheili/ranger = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/eva/ranger = 5,
+		/obj/item/clothing/shoes/magboots/sangheili = 5,
+		/obj/item/clothing/gloves/thick/sangheili/ranger = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/eva/ranger/major = 5,
+		/obj/item/clothing/suit/armor/special/combatharness/eva/ranger/ultra = 5
 
 		)
 

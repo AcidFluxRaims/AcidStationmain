@@ -373,6 +373,17 @@
 	ammo_type = /obj/item/ammo_casing/shell
 	max_ammo = 30
 
+/obj/item/ammo_magazine/elitesniper
+	name = "Z4 Mantis magazine"
+	icon_state = CALIBER_ANTIMATERIAL
+	origin_tech = list(TECH_COMBAT = 4)
+	mag_type = MAGAZINE
+	caliber = CALIBER_ANTIMATERIAL
+	matter = list(MATERIAL_STEEL = 2000)
+	ammo_type = /obj/item/ammo_casing/shell
+	max_ammo = 10
+	multiple_sprites = 1
+
 /obj/item/ammo_magazine/box/lewisgun
 	name = "Lewis Gun magazine"
 	icon = 'icons/obj/guns/ww1equipment.dmi'

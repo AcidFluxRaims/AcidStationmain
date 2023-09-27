@@ -97,7 +97,7 @@
 "bS" = (/obj/structure/flora/ausbushes/reedbush,/turf/simulated/floor/exoplanet/grass,/area/map_template/colony)
 "bT" = (/obj/structure/railing/mapped,/obj/machinery/light,/turf/simulated/floor/reinforced,/area/map_template/colony/medbay)
 "bU" = (/obj/structure/bed/chair/comfy/blue{dir = 4},/turf/simulated/floor/tiled/white,/area/map_template/colony/medbay)
-"bV" = (/obj/machinery/light,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"bV" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
 "bW" = (/obj/machinery/vending/medical/skrell,/turf/simulated/floor/tiled,/area/map_template/colony/medbay)
 "bX" = (/obj/machinery/floor_light/prebuilt,/turf/simulated/floor/exoplanet/grass,/area/exoplanet/grass)
 "bY" = (/obj/machinery/light,/turf/simulated/floor/crystal,/area/map_template/colony/command)
@@ -209,10 +209,10 @@
 "ea" = (/obj/machinery/door/airlock/multi_tile/glass/civilian,/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
 "eb" = (/obj/machinery/power/apc{dir = 8; pixel_x = -24},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/old_cargo,/area/map_template/colony/jail)
 "ec" = (/obj/machinery/telecomms/server/presets/centcomm,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
-"ed" = (/obj/machinery/telecomms/server/presets/command,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
-"ee" = (/obj/machinery/suit_cycler/security/alt,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
+"ed" = (/turf/simulated/wall/concrete,/area/map_template/colony/jail)
+"ee" = (/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
 "ef" = (/obj/machinery/suit_cycler/security,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
-"eg" = (/obj/machinery/light{dir = 1},/obj/machinery/suit_cycler/security,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
+"eg" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
 "eh" = (/obj/machinery/telecomms/server/presets/common,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
 "ei" = (/obj/machinery/telecomms/server/presets/engineering,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
 "ej" = (/obj/machinery/telecomms/server/presets/security,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
@@ -236,8 +236,60 @@
 "eB" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled,/area/map_template/colony/command)
 "eC" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/wall/r_titanium,/area/map_template/colony/command)
 "eD" = (/obj/machinery/power/smes/buildable/max_cap_in_out{name = "Power Regulation Unit"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/reinforced,/area/map_template/colony/command)
-"eE" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eE" = (/obj/item/target/syndicate,/obj/structure/target_stake,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"eF" = (/turf/simulated/floor/exoplanet/grass,/area/exoplanet/grass{ambience = list('sound/effects/wind/wind_2_1.ogg','sound/effects/wind/wind_2_2.ogg','sound/effects/wind/wind_3_1.ogg','sound/effects/wind/wind_4_1.ogg')})
+"eG" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"eH" = (/obj/machinery/computer/telecomms,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eI" = (/obj/machinery/computer/telecomms/server{dir = 4; network = "tcommsat"},/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eJ" = (/obj/machinery/telecomms/processor/preset_cent,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eK" = (/obj/machinery/computer/telecomms/monitor{dir = 4; network = "tcommsat"},/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eL" = (/obj/machinery/telecomms/processor/preset_one,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eM" = (/obj/machinery/power/apc{dir = 8; pixel_x = -24},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/machinery/telecomms/receiver/preset_cent,/turf/simulated/floor/reinforced,/area/map_template/colony/command)
+"eN" = (/obj/machinery/telecomms/processor/preset_two,/turf/simulated/floor/reinforced,/area/map_template/colony/command)
+"eO" = (/obj/machinery/telecomms/receiver/preset_right,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eP" = (/obj/machinery/telecomms/processor/preset_three,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eQ" = (/obj/machinery/telecomms/server/presets/command,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
+"eR" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
+"eS" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/wall/r_titanium,/area/exoplanet/grass)
+"eT" = (/obj/machinery/telecomms/processor/preset_four,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eU" = (/obj/machinery/light{dir = 8},/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"eV" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"eW" = (/obj/machinery/light{dir = 4},/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"eX" = (/obj/machinery/vending/security/infantry,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"eY" = (/obj/machinery/light,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/telecomms/bus/preset_cent,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"eZ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/telecomms/bus/preset_four,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fa" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/telecomms/bus/preset_three,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fb" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/telecomms/bus/preset_two,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fc" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/telecomms/bus/preset_one,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fd" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/telecomms/broadcaster/preset_right,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fe" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/telecomms/broadcaster/preset_cent,/turf/simulated/floor/tiled,/area/map_template/colony/command)
 "ff" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"; tag = "icon-railing0 (EAST)"},/obj/machinery/light,/turf/simulated/floor/reinforced,/area/map_template/colony/commons)
+"fg" = (/obj/machinery/telecomms/broadcaster,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fh" = (/obj/machinery/light,/obj/machinery/telecomms/allinone,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fi" = (/obj/machinery/light,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"fj" = (/obj/machinery/light{dir = 4},/obj/machinery/vending/security,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"fk" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/airlock/security,/turf/simulated/floor/tiled/dark/usedup,/area/map_template/colony/jail)
+"fl" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; pixel_y = 0},/obj/machinery/telecomms/server,/turf/simulated/floor/tiled/old_tile,/area/map_template/colony/jail)
+"fm" = (/obj/structure/closet/crate/trashcart,/turf/simulated/floor/tiled,/area/map_template/colony/commons)
+"fn" = (/obj/structure/table/woodentable/walnut,/obj/item/weapon/storage/bag/trash,/turf/simulated/floor/wood/ebony,/area/map_template/colony/commons)
+"fo" = (/obj/structure/flora/ausbushes/brflowers,/turf/simulated/floor/exoplanet/grass,/area/map_template/colony/commons)
+"fp" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/floor/exoplanet/grass,/area/map_template/colony/commons)
+"fq" = (/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/exoplanet/grass,/area/map_template/colony/commons)
+"fr" = (/obj/structure/flora/ausbushes/fernybush,/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/exoplanet/grass,/area/map_template/colony/commons)
+"fs" = (/obj/machinery/vending/lavatory,/turf/simulated/floor/wood/walnut,/area/map_template/colony/commons)
+"ft" = (/obj/machinery/uniform_vendor,/turf/simulated/floor/wood/walnut,/area/map_template/colony/commons)
+"fu" = (/obj/machinery/vending/fitness,/turf/simulated/floor/wood/walnut,/area/map_template/colony/commons)
+"fv" = (/obj/machinery/door/airlock/command{id_tag = "dorm4"; name = "Dorm 4"},/turf/simulated/floor/tiled/white/monotile,/area/map_template/colony/commons)
+"fw" = (/turf/simulated/floor/tiled/white/monotile,/area/map_template/colony/commons)
+"fx" = (/obj/structure/hygiene/shower,/obj/structure/curtain/open/shower,/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
+"fy" = (/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
+"fz" = (/obj/structure/curtain/open/shower,/obj/structure/hygiene/shower{dir = 4; icon_state = "shower"},/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
+"fA" = (/obj/structure/curtain/open/shower,/obj/structure/hygiene/shower{dir = 8},/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
+"fB" = (/obj/machinery/light{dir = 8; icon_state = "tube1"},/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
+"fC" = (/obj/structure/hygiene/drain,/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
+"fD" = (/obj/structure/hygiene/toilet{dir = 1},/obj/structure/curtain/open/privacy,/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
+"fE" = (/obj/machinery/telecomms/hub/preset,/turf/simulated/floor/tiled,/area/map_template/colony/command)
+"fF" = (/obj/machinery/ntnet_relay,/turf/simulated/floor/tiled,/area/map_template/colony/command)
 "gc" = (/turf/simulated/floor/reinforced,/area/map_template/colony/command)
 "hu" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/map_template/colony/medbay)
 "hI" = (/turf/simulated/floor/tiled/dark,/area/map_template/colony/command)
@@ -294,7 +346,6 @@
 "uz" = (/obj/structure/curtain/black,/turf/simulated/floor/wood/ebony,/area/map_template/colony/commons)
 "uQ" = (/obj/machinery/button/alternate/door/bolts{id_tag = "dorm4"; name = "Dorm 4 Control"; pixel_x = 28},/obj/structure/table/woodentable/walnut,/obj/item/device/flashlight/lamp,/turf/simulated/floor/wood/walnut,/area/map_template/colony/commons)
 "uS" = (/obj/machinery/door/airlock/multi_tile/glass/command,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/map_template/colony/command)
-"uU" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/map_template/colony/command)
 "vf" = (/obj/structure/flora/ausbushes/reedbush,/obj/structure/flora/ausbushes/pointybush,/turf/simulated/floor/exoplanet/grass,/area/map_template/colony)
 "vl" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/map_template/colony/commons)
 "vK" = (/obj/structure/morgue,/obj/machinery/light,/turf/simulated/floor/tiled/white,/area/map_template/colony/medbay)
@@ -310,7 +361,6 @@
 "zK" = (/obj/structure/table/marble,/obj/machinery/door/window/brigdoor{autoclose = 1; req_access = list("ACCESS_INFTECH"); dir = 4},/obj/item/modular_computer/laptop/preset/custom_loadout/advanced,/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
 "zN" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/wood/ebony,/area/map_template/colony/commons)
 "zY" = (/obj/machinery/door/window/brigdoor/northleft,/obj/machinery/door/window/brigdoor/southleft,/obj/structure/curtain/black,/turf/simulated/floor/wood/ebony,/area/map_template/colony/commons)
-"Ar" = (/obj/structure/flora/ausbushes/brflowers,/obj/structure/flora/ausbushes/ppflowers,/turf/simulated/floor/exoplanet/grass,/area/exoplanet/grass)
 "Av" = (/obj/machinery/light{dir = 4},/obj/structure/closet/crate/freezer/rations,/turf/simulated/floor/wood/ebony,/area/map_template/colony/commons)
 "Ax" = (/obj/machinery/chemical_dispenser/full,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/map_template/colony/medbay)
 "AW" = (/obj/machinery/power/apc{dir = 2; locked = 0; name = "south bump"; operating = 1; pixel_y = -28},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable,/turf/simulated/floor/tiled,/area/map_template/colony)
@@ -344,7 +394,6 @@
 "JB" = (/obj/machinery/door/airlock/glass/command,/turf/simulated/floor/tiled/dark,/area/map_template/colony)
 "JQ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4; icon_state = "intact"},/turf/simulated/wall/r_titanium,/area/map_template/colony/commons)
 "KC" = (/obj/machinery/atmospherics/unary/heater{dir = 8; temperature = 340; set_temperature = 340},/turf/simulated/floor/tiled/white,/area/map_template/colony/commons)
-"KM" = (/obj/machinery/power/apc{dir = 8; pixel_x = -24},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/reinforced,/area/map_template/colony/command)
 "Lk" = (/turf/simulated/floor/tiled,/area/map_template/colony/commons)
 "Lx" = (/obj/machinery/door/airlock/glass/command,/turf/simulated/floor/tiled,/area/map_template/colony)
 "LI" = (/obj/machinery/light{dir = 4},/obj/structure/bed/padded,/turf/simulated/floor/tiled,/area/map_template/colony/medbay)
@@ -404,26 +453,26 @@ aaadadadadadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTananaTaTaTaTaTaTaTanaTaT
 aaadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTavaTaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadaTaTaTaTaTaTaTaTaTananaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadaTaTaTaTaTaTaTabaTanwNaTaTaTaTbeaTaTaTaTaTaTaTanaTaTaTbeaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbXaTaTaTaTaTbXaTaTaTaTaTaTababaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTanaTaTanaTavaTcqrAbjbjbjrAcqcqcqcqcqrAbjbjbjrAcqcgcgcgcgcgcgcgcgcgcgcgcgcgcgcgCxbXaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTcqahBijaTcahQCczPPczbbahBijaTcahbgddafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTbqaTaTaTaTaTcqbbajajajaeaebYbPbYaeaeajajajbbeyafafafafafafafafafafafafafafafaqaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTAraTaTaTaTaTcqbbaeaeaeaebjaEkRaEbjaeaeaeaebbeyafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTcqbbaeaeaeBmmRowsBiKmRbOaeaeaebbeyafafafafafafafafafafafafafafafaqaTaTaTbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTabaTaTaTaTaTaTaTcqKMaWaWaWBLkRsBzisBkRMngcgcgcgceyafafafafafafafafafafafafafafafaqbXaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTcqbbaeaeaeZwmRFgsBVXmROsaeaeaebbeyafafafafafafafafafafafafafafafaqaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTcqbbaeaeaezobjaEkRaEbjzoaeaeaebbeyafafafafafafafafafafafafafafafaqaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTavaTaTaTcqbbaeaeaeUqumbEaMbEumezeAeAeAeBeCafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTbeaTaTaTaTanaTaTaTaTcqcvkLbVkLkLkLkLeDeBeBeEbbuUbbbbcqafafafafafafafafbdafafafafafafaqbeaTaTaTaTaTaTaTbqbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTcquShIcqcqcqcqbjmfbjcqcqcqcqMEbbcqafafafafafafafafafafafafafafafaqbXaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadcFcGcGcGcGcGcGcGcGcGcGcQapasaKXDaXiWaXaXaXiWaXoGaKasbHaKafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabababaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadcLcMcNcNcOcPcPcRcPcScTayapaVaKcJaUaXaXaXaXaXcoaYaKiGbHbmafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadedededededededededededaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadedededededededededededaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadedbVeebVeebVeebVeebVedaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbXaTaTaTaTaTbXaTaTaTaTaTaTababaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadedegeEeeeEeeeEeeeEeGedcqrAbjbjbjrAcqcqcqcqcqrAbjbjbjrAcqcgcgcgcgcgcgcgcgcgcgcgcgcgcgcgCxbXaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadedeeeeeeeeeeeeeeeeeeedcqahBijaTcahQCczPPczeHahBijaTcahbgddafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadedegeeeeeeeeeeeeeeeGedcqfEajajajaeaebYbPbYaeaeajajajbbeyafafafafafafafafafafafafafafafaqaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadedeeeeeeeeeeeeeeeeeeedcqeIaeaeaeaebjaEkRaEbjaeaeaeaeeJeyafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadedegeeeeeeeeeeeeeeeGedcqeKaeaeaeBmmRowsBiKmRbOaeaeaeeLeyafafafafafafafafafafafafafafafaqaTaTaTbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadaa
+aaadadadadadadadadedeeeeeeeeeeeeeeeeeeedcqeMaWaWaWBLkRsBzisBkRMngcgcgceNeyafafafafafafafafafafafafafafafaqbXaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadaa
+aaadadadadadadadadedegeeeeeeeeeeeeeeeGedcqeOaeaeaeZwmRFgsBVXmROsaeaeaeePeyafafafafafafafafafafafafafafafaqaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadadaa
+aaadadadadadadadadedeeeeeeeeeeeeeeeeeeedcqfFaeaeaezobjaEkRaEbjzoaeaeaeeTeyafafafafafafafafafafafafafafafaqaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadedeUeVeVeVeVeVeVeVeWedcqbbaeaeaeUqumbEaMbEumezeAeAeAeBeCafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadedeeeeeeeeeeeeeeeeeXedcqcvkLeYeZfafbfceDeBfdfefgfhbbbbcqafafafafafafafafbdafafafafafafaqbeaTaTaTaTaTaTaTbqbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadedegeefieefieefieefjedcquShIcqcqcqcqbjmfbjcqcqcqcqMEbbcqafafafafafafafafafafafafafafafaqbXaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadcFcGfkcGcGcGcGcGcGcGcGcQapasaKXDaXiWaXaXaXiWaXoGaKasbHaKafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabababaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadcLflcNcNcOcPcPcRcPcScTayapaVaKcJaUaXaXaXaXaXcoaYaKiGbHbmafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLdXcNcNcLcPcUcVcPcPcPdGaoasblbGbGcAaUcococobGbGblasbHbmafafafafafafafafafafafafafafafaqaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLdZcNcNdoebcWcXcPcYcZayapaVaKvfbGiabGbGbGbGbGbSaKiGbHbmafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbkbeaTaTavaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLeccNdadbcGcGcGcGcGdcdMnbasaKWSbSbZbsrsbsbZbSWSaKarbHaKafafafafafafafafafafafafafafafaqbXaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadcLedcNcNeeeeefegefefcLaKapasasaKaKaKaKaKaKaKaKaKasasbHaKafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadcLeQcNcNcNcNcNeRefefcLaKapasasaKaKaKaKaKaKaKaKaKasasbHaKafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLehcNcNcNcNcNcNcNcNcLaKapasasJBasasasasasasasJBasasbHaKafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLeicNcNcNcNcNcNcNcNdfdWaoasawaKiGasasasasasaVaKiGasbHaKafafafafafafafafafafafafafafafaqaTaTaTaTaTaTaTaTaTaTaTaTbeabaTaTaTaTaTaTabaTaTaTbqbqaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLejelemeneocNcNcNcNcLaKapasawaKiGasasasasasaVaKiGasbHaKafafafafafafafafafafafafafafafaqaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
@@ -432,7 +481,7 @@ aaadadadadadadadadcLdhdididjcLcNcNcNcNcLaFaKaKaKaKaKaKaLayaLbnbnbnbnbnbnbnbnbnbn
 aaadadadadadadadadcLdididkdicLcNcNcNcNcLcdaOaPaQaJaucdaRaSaDVfDgiEDgyCbAbAhubnbRDfwdbWbnalFBalbnbrafbcaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLdididkdlcLcMcNcNcNcLcdLkLkLkLkLkYdLkbFLkbnbCEpSAbBciciciHlcicicicikvcicBaibnbrafbcaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLdidmdkdncLcNcNcNcNcLcdcdcdcdcdcdcdbibFLkbnbAGhkIbBcicicibnekoEoEcibnWKrvalbncKafbcaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbqbqaTaTaTadadadadadadadadaa
-aaadadadadadadadaddodpcGcGcGdqcNcNcNcNcLcdbtLkvlLkLkbwLkbFhNbnbAcicibBcicicibnbnbnbnHlbncicBbAbnbrafbcaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTababaTaTaTaTaTaTaTaTbqbqaTaTaTadadadadadadadadaa
+aaadadadadadadadaddodpcGcGcGdqcNcNcNcNcLcdbtfmvlLkLkbwLkbFhNbnbAcicibBcicicibnbnbnbnHlbncicBbAbnbrafbcaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTababaTaTaTaTaTaTaTaTbqbqaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLcNdecNcNcNcNcNcNcNcLcdbtLkLkLkSLcdLkbFLkbnbAcicibBcicicicicicicicibnWKrvLIbnbrafbcaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTananaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadaddocGcGcGcGdgcNcNcNdacLcdbJbKbLbLbMcdLkbFLkbnbCkUkUrIaZjLWqcicicicibninbnbnbnbnbrafbcaTaTaTaTaTaTabaTaTbqaTaTaTaTaTaTaTaTabaTaTaTaTaTaTananaTaTaTaTaTananaTbeaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLdrdsepeqcLcNcNcNcNcLcdcdcdcdcdcdcdLkbFLkcdcdcncjJQJQnfBDcicicipibnUybUqaYTbncKafbcaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
@@ -448,28 +497,28 @@ aaadadadadadadadadcLdLdLdNdDdDdOdLdLcLcdcIambfcIacMzcIaccpaccIchcpcpcpzNagbnbzci
 aaadadadadadadadadcLdPdQdRdDdDdSdQdPcLcdcIcIcycIFtcIcIaccpacaIcpbDbabaIcagbnbzcicicicicicicxbnbraGaGccaTaTbXaTaTaTaTaTaTaTbXaTaTcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfCocIaTaTaTaTabaTaTaTadadadadadadadadaa
 aaadadadadadadadadcLdDdDdDdDdDdDdDdDcLcdcIbQacacacpYcIlccplGcIcpbDbacpcpagbnvKcicicicicicimkbnbraGaGccaTaTaTaTaTaTaTaTaTbqaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTaTbeaTaTadadadadadadadadaa
 aaadadadadadadadadcLdFdHdTdDdDdJdHdKcLcdcIcaaccbacacChaccpaccIcpbDbabDbuagbnbnBGivXNcEGTmQbnbnCiaGaGffbxaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCTOcIckcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadcLdLdLdNdDdDdOdLdLcLcdcIcIcIcIcIcIcIlccplGcIchbDbacpbNagbnbnbnbnbnbnbnbnbnbncddYdYcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadcLdPdUdVdDdDdSdUdPcLcdcIbQacacacbvcIaccpaccIzYcIiYcIcIcIcdxacwewexbfcwCocdbfbfbfbfcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCKCbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadaddbcGcGcGcGcGcGcGcGdqcdcIcaacacacBIcIaccpaccIchcpuznDAvcIcdxabfbfbfbfbfcrnrbfbfbfbfcdcdaTaTaTbqaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTanaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaaccbacacctaccpaccIbpcpcpcpbpcIcdxabfbfbfbfbfcrzKbfbfbfCocdcdaTaTaTaTaTaTaTaTaTaTaTaTcIaNbfbfcCcCcCcCTOcIckcCcCcCcCbfbfCocIaTabaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcIcIcIcIcIcIlccplGcIbpcpcpcpbpcIcdxabfbfbfbfbfcrnmbfbfbfbfcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTbqaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTbqaTaTaTaTaTaTaTcdcIbQacacacbvcIaccpaccIbpcpcpcpbpcIcdxabybfbfbfbyCocdbybfbfbycdcdaTaTanaTaTabWhaTaTaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTavaTaTaTaTaTaTaTcdcIcaacacacbIcIaccpaccITHcpcpcpbpcIcdcdcdXhVIXhcdcdcdcdeabfcdcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCKCbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaaccbacacataccpaccIoFbpHqbpVkcIwBbxbxcpaccpbxOPcdcwbfbfcwcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCTOcIckcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcIcIcIcIcIcIlccplGcIcIcIcIcIcIcIcIcIcIXhVIXhcIcIcIbfbfbfbfcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIbQacacacbvcIaccpacaxacacacacacacacacaxacacacaxacPVbfbfbfbfcdcdaTababaTaTaTaTbqaTaTaTaTcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfCocIaTaTaTanaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaacacacuQcIaccpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpzNcIaNbfbfCocdcdaTababaTaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaaccbacaciuacacaccbacacacacacacacaccbacacaccbacPVbfbybybfcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTavaTaTaTabaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTabaTaTaTaTcdcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcdcdcdcdcdcdaTaTaTaTaTaTaTaTaTaTaTaTcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdaTaTaTaTaTaTaTaTaTanaTaTcIbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfcIaTaTaTabaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcIlvbfbfbybfbfbybfbfbybfbfbybfbfbyFvcIaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadadadadadaTaTaTaTaTbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIaTaTaTaTaTaTbqaTadadadadadadadadaa
-aaadadadadadadadadadadadadaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTWhaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadadadadadadadadadadadaTabababaTaTbqaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTbqaTbeaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanabaTaTaTaTadadadadadadadadaa
-aaadadadadadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTananaTaTaTaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTababaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbebeaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadcLdLdLdNdDdDdOdLdLcLcdcIcIcIcIcIcIcIlccplGcIchbDfncpbNagbnbnbnbnbnbnbnbnbnbncddYdYcdcdcdcdcdcdcdcdcdcdcdcdcdcdcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadcLdPdUdVdDdDdSdUdPcLcdcIbQacacacbvcIaccpaccIzYcIiYcIcIcIcdxacwewexbfcwCocdbfbfbfbfcdcdbxbxbxbxbxbxbxbxbxbxbxbxcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCKCbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadaddbcGcGcGcGcGcGcGcGdqcdcIcaacacacBIcIaccpaccIchcpuznDAvcIcdxabfbfbfbfbfcrnrbfbfbfbfcdcdbxbxbxfobxbxbxbxbxbxbxbxcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTanaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaaccbacacctaccpaccIbpcpcpcpbpcIcdxabfbfbfbfbfcrzKbfbfbfCocdcdbxbxbxbxbxbxbxbxbxbxbxbxcIaNbfbfcCcCcCcCTOcIckcCcCcCcCbfbfCocIaTabaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcIcIcIcIcIcIlccplGcIbpcpcpcpbpcIcdxabfbfbfbfbfcrnmbfbfbfbfcdcdbxbxbxbxbxbxbxbxbxbxbxbxcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTbqaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTbqaTaTaTeFaTaTaTcdcIbQacacacbvcIaccpaccIbpcpcpcpbpcIcdxabybfbfbfbyCocdbybfbfbycdcdbxbxfpbxbxfqfrbxbxbxbxbxcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTavaTaTaTaTaTaTaTcdcIcaacacacbIcIaccpaccITHcpcpcpbpcIcdcdcdXhVIXhcdcdcdcdeabfcdcdcdbxbxbxbxbxbxbxbxbxbxbxbxcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCKCbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaaccbacacataccpaccIoFbpHqbpVkcIwBbxbxcpaccpbxOPcdcwbfbfcwcdcdbxbxbxbxbxbxbxbxbxbxbxbxcIbfbfbfcCcCcCcCTOcIckcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcIcIcIcIcIcIlccplGcIcIcIcIcIcIcIcIcIcIXhVIXhcIcIcIbfbfbfbfcdcdbxbxbxbxbxbxbxbxbxbxbxbxcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIbQacacacbvcIaccpacaxacfsftfuacacacacaxacacacaxacPVbfbfbfbfcdcdbxfqfqbxbxbxbxfobxbxbxbxcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfCocIaTaTaTanaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaacacacuQcIaccpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcpzNcIaNbfbfCocdcdbxfqfqbxbxbxbxbxbxbxbxbxcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcIcaaccbacaciuacacaccbacacacacacacacaccbacacaccbacPVbfbybybfcdcdbxbxbxbxbxbxbxbxbxbxbxbxcIbfbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfbfcIaTavaTaTaTabaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTabaTaTaTaTcdcIcIcIcIcIcIcIcIcIcIcIcIcIfvcIcIcIcIcIcIcIcIcIcIcIcIcdcdcdcdcdcdbxbxbxbxbxbxbxbxbxbxbxbxcIaNbfbfcCcCcCcCcCcCcCcCcCcCcCbfbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTcdcdcdcdcdcdcdcdcdcdcdcdcdcdfwcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdaFaFaFaFaFaFaFaFaFeSaFaFcIbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfcIaTaTaTabaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcdbfbffxfybffyfxbfbfcdaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcIbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfCocIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcdfzbfbfbfbfbfbfbffAcdaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcIlvbfbfbybfbfbybfbfbybfbfbybfbfbyFvcIaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadadadadadaTaTaTaTaTbqaTaTaTaTaTaTaTaTaTcdfBbfbfbfbfbfbfbfCocdaTaTaTaTaTaTaTbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIaTaTaTaTaTaTbqaTadadadadadadadadaa
+aaadadadadadadadadadadadadaTaTaTaTaTaTavaTaTaTaTaTaTaTaTcdfzbfbffCbffCbfbffAcdaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTcdfBbfbfbfbfbfbfbfCocdaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTWhaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTcdfzbfbfbfbfbfbfbffAcdaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadadadadadadadadadadadaTabababaTaTbqaTaTcdbfbfbyfDbffDbybfbfcdaTaTaTaTaTaTbeaTaTaTaTaTaTaTaTaTaTbqaTbeaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanabaTaTaTaTadadadadadadadadaa
+aaadadadadadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTcdcdcdcdcdcdcdcdcdcdcdaTaTaTaTavaTaTaTaTaTaTaTaTaTaTaTababaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbebeaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadaa
 aaadadadadadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTbqaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabGoaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadaa
 aaadadadadadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTanaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadaa
 aaadadadadadadadadadadadadadadadadadadaTaTaTaTaTaTaTaTaTaTaTaTaTabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTavabaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTaTadadadadadadadadadadadaa
