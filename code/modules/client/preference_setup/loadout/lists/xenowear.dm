@@ -212,3 +212,12 @@
 	circlet["golden dress circlet"] = /obj/item/clothing/head/tajaran/circlet
 	circlet["silver dress circlet"] = /obj/item/clothing/head/tajaran/circlet/silver
 	gear_tweaks += new/datum/gear_tweak/path(circlet)
+
+//Sangheili gear
+
+/datum/gear/uniform/sangheili/harness
+	display_name = "Sangheili Undersuit"
+	description = "A suit worn by Sangheili underneath combat harnesses."
+	path = /obj/item/clothing/under/covenant/sangheili
+	whitelisted = list(SPECIES_SANGHEILI)
+	sort_category = "Xenowear"

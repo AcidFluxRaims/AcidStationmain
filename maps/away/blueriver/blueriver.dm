@@ -1,16 +1,27 @@
 //quality code theft
 #include "blueriver_areas.dm"
 /obj/effect/overmap/visitable/sector/arcticplanet
-	name = "Shrouded Planetoid"
-	desc = "Sensor Arrays detect a shrouded planetoid. No Further Data."
+	name = "arctic planetoid"
+	desc = "Sensor array detects an arctic planet with a small vessle on the planet's surface. Scans further indicate strange energy levels below the planet's surface."
 	icon_state = "globe"
 	sector_flags = OVERMAP_SECTOR_KNOWN
+	initial_generic_waypoints = list(
+		"nav_blueriv_1",
+		"nav_blueriv_2",
+		"nav_blueriv_3",
+		"nav_blueriv_antag"
+	)
+
+/obj/effect/overmap/visitable/sector/arcticplanet/New(nloc, max_x, max_y)
+	name = "[generate_planet_name()], \a [name]"
+	..()
 
 /datum/map_template/ruin/away_site/blueriver
-	name = "FColony"
+	name = "Bluespace River"
 	id = "awaysite_blue"
-	description = "Friendly, Custom-mapped colony. For relaxation."
-	suffixes = list("blueriver/blueriver-2.dmm")
+	description = "Two z-level map with an arctic planet and an alien underground surface"
+	suffixes = list("blueriver/blueriver-1.dmm", "blueriver/blueriver-2.dmm")
+	generate_mining_by_z = 2
 	area_usage_test_exempted_root_areas = list(/area/bluespaceriver)
 	apc_test_exempt_areas = list(
 		/area/bluespaceriver/underground = NO_SCRUBBER|NO_VENT|NO_APC,

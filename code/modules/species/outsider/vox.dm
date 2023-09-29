@@ -35,7 +35,7 @@
 
 	taste_sensitivity = TASTE_DULL
 	speech_sounds = list('sound/voice/shriek1.ogg')
-	speech_chance = 10
+	speech_chance = 5
 
 	warning_low_pressure = 50
 	hazard_low_pressure = -1
@@ -46,6 +46,11 @@
 
 	min_age = 18
 	max_age = 100
+
+	strength = STR_HIGH
+	brute_mod = 0.8
+	burn_mod = 0.8
+	toxins_mod = 0.4
 
 	gluttonous = GLUT_TINY|GLUT_ITEM_NORMAL
 	stomach_capacity = 12
@@ -152,11 +157,11 @@
 	hidden_from_codex = FALSE
 
 	speech_sounds = list('sound/voice/ashriek.ogg')
-	speech_chance = 10
+	speech_chance = 5
 
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_FLAG_NO_MINOR_CUT //SPECIES_IS_WHITELISTED
-	brute_mod = 0.6
-	burn_mod = 0.6
+	brute_mod = 0.5
+	burn_mod = 0.5
 	toxins_mod = 1.2
 	strength = STR_VHIGH
 	mob_size = MOB_LARGE
@@ -168,7 +173,7 @@
 	species_flags = SPECIES_FLAG_NO_MINOR_CUT
 
 	speech_sounds = list('sound/voice/shriek1.ogg')
-	speech_chance = 10
+	speech_chance = 5
 
 	override_organ_types = list(BP_EYES = /obj/item/organ/internal/eyes/vox/armalis)
 

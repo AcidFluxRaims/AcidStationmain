@@ -1789,3 +1789,27 @@
 /area/radio_host
 	name = "\improper Radio Host Office"
 	req_access = list(access_radio_host)
+
+
+//Colony
+/area/map_template/colony
+	name = "\improper Independence Colony"
+
+/area/map_template/colony/medbay
+	name = "\improper Colony Medbay"
+	icon_state = "green"
+	req_access = list(access_medical)
+
+/area/map_template/colony/commons
+	name = "\improper Colony Commons Area"
+	icon_state = "blue"
+
+/area/map_template/colony/jail
+	name = "\improper Colony Prison"
+	icon_state = "red"
+	req_access = list(access_security)
+
+/area/map_template/colony/command
+	name = "\improper Colony Central Command"
+	icon_state = "yellow"
+	req_access = list(access_bridge)

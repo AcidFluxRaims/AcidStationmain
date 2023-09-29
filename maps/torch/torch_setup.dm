@@ -6,20 +6,23 @@
 /datum/map/torch/get_map_info()
 	. = list()
 	. += "Congratulations on your employment, rescue, or refuge aboard the IFSS (Independent Force Star Ship) Independence."
-	. += "It is a Mako-class vessel outfitted with current medical, science, security, habitation, and leisure facilities. A detachment of marines are also stationed aboard to assist."
+	. += "It is a Mako-class vessel outfitted with somewhat aged medical, science, security, habitation, and leisure facilities. A detachment of marines are also stationed aboard to assist."
 	. += ""
-	. += "It is a re-commissioned science vessel revamped to be closer to a military vessel, and undergoing constant revamping to fit the vision of its new operators."
-	. += "Capable of responding both to deal with most minor insurrectionist threats in a rapid fashion as well as explore any 'forgotten' planets in these sectors while establishing rapport with locals."
+	. += "It is a re-commissioned science vessel revamped hastily into a military corvette, and undergoing constant refit to fit the vision of its new operators."
+	. += ""
+	. += "Capable of responding to deal with most minor insurrectionist threats as well as explore any 'forgotten' planets in these sectors while establishing rapport with locals, a good reputation is utmost in this new era."
 	. += ""
 	. += "The ship plays host to a considerable variety of individuals, though the assignment is less than glorious. Most, if not all crew are cast-offs of NT and its allies."
-	. += "A mission exploring uncharted, forgotten areas of space now free of SolGov and NT, the main objective is survival and success."
+	. += ""
+	. += "A mission exploring uncharted, forgotten areas of space now free of SolGov and NT, the main objective is survival and success despite the overwhelming odds."
+	. += ""
 	. += "After being consigned to an ignomious, anonymous death, the crew and core of captains have taken full control of the vessel, no longer bound by SolGov or NT laws or restrictions."
 	. += ""
-	. += "Adjust your expectations and outlook accordingly, crew."
+	. += "Adjust your expectations and outlook accordingly, crew. Any allegiances to corporations or SolGov are null and void... and further support will do you no good here."
 	return jointext(., "<br>")
 
 /datum/map/torch/send_welcome()
-	var/welcome_text = "<center><img src = bluentlogo.png /><br /><font size = 3><b>IFSS Independence</b> Sensor Readings:</font><br>"
+	var/welcome_text = "<center><img src = IFSSIndependencelogo.png /><br /><font size = 3><b>IFSS Independence</b> Sensor Readings:</font><br>"
 	welcome_text += "Report generated on [stationdate2text()] at [stationtime2text()]</center><br /><br />"
 	welcome_text += "<hr>Current system:<br /><b>[system_name()]</b><br /><br>"
 
@@ -28,8 +31,8 @@
 
 	welcome_text += "Current Coordinates:<br /><b>[torch.x]:[torch.y]</b><br /><br>"
 	welcome_text += "Next system targeted for jump:<br /><b>[generate_system_name()]</b><br /><br>"
-	welcome_text += "Travel time to Sol:<br /><b>[rand(15,45)] days</b><br /><br>"
-	welcome_text += "Time since last port visit:<br /><b>[rand(60,180)] days</b><br /><hr>"
+	welcome_text += "Travel time to Sol:<br /><b>[rand(25,65)] days</b><br /><br>"
+	welcome_text += "Time since last port visit:<br /><b>[rand(1,20)] days</b><br /><hr>"
 	welcome_text += "Scan results show the following points of interest:<br />"
 
 	for(var/zlevel in map_sectors)

@@ -129,6 +129,85 @@
 	else
 		icon_state = "bren-empty"
 
+/obj/item/weapon/gun/projectile/automatic/ak47
+	name = "AKM updated"
+	icon = 'icons/obj/guns/leerifles.dmi'
+	icon_state = "ak47"
+	item_state = "ak47"
+	desc = "A heavy, old design, updated for modern combat. Reliable and powerful, uses STS-35 magazines."
+	w_class = ITEM_SIZE_LARGE
+	force = 8
+	caliber = CALIBER_RIFLE
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ESOTERIC = 2)
+	slot_flags = null
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/rifle
+	allowed_magazines = /obj/item/ammo_magazine/rifle
+	one_hand_penalty = 3
+	accuracy_power = 0
+	accuracy = 2
+	fire_delay = 0
+	burst_delay = 1.9
+	bulk = GUN_BULK_RIFLE
+	has_safety = 1
+	fire_sound = 'sound/weapons/gunshot/acidak47.ogg'
+	mag_insert_sound = 'sound/weapons/guns/interaction/ltrifle_magin.ogg'
+	mag_remove_sound = 'sound/weapons/guns/interaction/ltrifle_magout.ogg'
+	base_parry_chance = 10
+
+	//LMG, burst fire degrades quicker than SMG, worse one-handing penalty, slightly increased move delay
+	firemodes = list(
+		list(mode_name="single shot",       burst=1, fire_delay=null,    move_delay=null, one_hand_penalty=4, burst_delay = 0, burst_accuracy=null, dispersion=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=1,    one_hand_penalty=6, burst_delay = 2, burst_accuracy=list(0,0,-1),       dispersion=list(0.0, 0.6, 1.2)),
+		list(mode_name="suppression fire",   burst=6, fire_delay=null, move_delay=1,    one_hand_penalty=8, burst_accuracy=list(0,0,-1,-1,-2,-2), burst_delay = 2, dispersion=list(0.6, 1.0, 1.0, 1.0, 1.2, 1.2)),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/ak47/on_update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "ak47"
+	else
+		icon_state = "ak47-empty"
+
+/obj/item/weapon/gun/projectile/automatic/aks74u
+	name = "AKS-74U modernized"
+	icon = 'icons/obj/guns/leerifles.dmi'
+	icon_state = "aks74u"
+	item_state = "aks74u"
+	desc = "A lightened, assault-caliber carbine of ancient origin."
+	w_class = ITEM_SIZE_NORMAL
+	force = 4
+	caliber = CALIBER_RIFLE_MILITARY
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ESOTERIC = 2)
+	slot_flags = null
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/aks74u
+	allowed_magazines = /obj/item/ammo_magazine/aks74u
+	one_hand_penalty = 5
+	accuracy_power = 0
+	accuracy = 2
+	fire_delay = 0
+	burst_delay = 1.9
+	has_safety = 1
+	fire_sound = 'sound/weapons/gunshot/acidak74.ogg'
+	mag_insert_sound = 'sound/weapons/guns/interaction/ltrifle_magin.ogg'
+	mag_remove_sound = 'sound/weapons/guns/interaction/ltrifle_magout.ogg'
+	base_parry_chance = 10
+
+	//LMG, burst fire degrades quicker than SMG, worse one-handing penalty, slightly increased move delay
+	firemodes = list(
+		list(mode_name="single shot",       burst=1, fire_delay=null,    move_delay=null, one_hand_penalty=4, burst_delay = 0, burst_accuracy=null, dispersion=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=1,    one_hand_penalty=6, burst_delay = 2, burst_accuracy=list(0,0,-1),       dispersion=list(0.0, 0.6, 1.0)),
+		list(mode_name="suppression fire",   burst=6, fire_delay=null, move_delay=1,    one_hand_penalty=8, burst_accuracy=list(0,0,-1,-1,-2,-2), burst_delay = 2, dispersion=list(0.6, 1.0, 1.0, 1.0, 1.2, 1.2)),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/aks74u/on_update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "aks74u"
+	else
+		icon_state = "aks74u-empty"
+
 /obj/item/weapon/gun/projectile/automatic/machine_pistol
 	name = "M6 Vesper"
 	desc = "The Hephaestus Industries MP6 Vesper, A fairly common machine pistol. Sometimes refered to as an 'uzi' by the backwater spacers it is often associated with."

@@ -108,6 +108,35 @@
 	fire_delay = 10
 	wielded_item_state = null
 
+/obj/item/weapon/gun/projectile/heavysniper/elitesniper
+	name = "Z4 Mantis"
+	desc = "The Z4 Mantis, an experimental upgrade to the Z2 Hornet. This rifle however is more akin to an anti-materiel platform, chambered in 15mm. Its hefty weight requires greater strength to use effectively."
+	icon = 'icons/obj/guns/elitesniper.dmi'
+	icon_state = "elitesniper"
+	item_state = "elitesniper"
+	w_class = ITEM_SIZE_HUGE
+	force = 10
+	slot_flags = null
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 2, TECH_ESOTERIC = 8)
+	caliber = CALIBER_ANTIMATERIAL
+	screen_shake = 0 //screenshake breaks the scope.
+	handle_casings = EJECT_CASINGS
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/elitesniper
+	allowed_magazines = /obj/item/ammo_magazine/elitesniper
+	max_shells = 10
+	ammo_type = /obj/item/ammo_casing/shell
+	one_hand_penalty = 0
+	accuracy = 2
+	bulk = 6
+	scoped_accuracy = 12 //increased accuracy over the LWAP because only one shot
+	scope_zoom = 3
+	has_safety = 1
+	load_sound = 'sound/weapons/guns/interaction/rifle_load.ogg'
+	fire_sound = 'sound/weapons/gunshot/acidarmcannon5.ogg'
+	fire_delay = 5
+	wielded_item_state = null
+
 //The following does not work.
 /obj/item/weapon/gun/projectile/heavysniper/armcannonrocket
 	name = "Internal Rocket Projector System"
@@ -204,7 +233,7 @@
 	accuracy = 3
 	scope_zoom = 2
 	scoped_accuracy = 15
-	screen_shake = 0.5
+	screen_shake = 0
 	bulk = 8
 	wielded_item_state = "smle"
 	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
@@ -246,7 +275,7 @@
 	accuracy = 3
 	scope_zoom = 2
 	scoped_accuracy = 15
-	screen_shake = 0.5
+	screen_shake = 0
 	bulk = 7
 	wielded_item_state = "No. 4"
 	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
@@ -269,7 +298,7 @@
 	scoped_accuracy = 0
 	screen_shake = 0.5
 	bulk = 4
-	wielded_item_state = "No. 4"
+	wielded_item_state = "No. 5"
 	fire_sound = 'sound/weapons/gunshot/acidleeenfield.ogg'
 	fire_delay = 1
 

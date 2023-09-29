@@ -25,6 +25,7 @@
 #define LANGUAGE_NABBER            "Serpentid"
 #define LANGUAGE_SERGAL            "Sagaru"
 #define LANGUAGE_ZARROZ            "Tajaran Za'rro'z"
+#define LANGUAGE_SANGHEILI		   "Sangheili"
 
 //Antag
 #define LANGUAGE_CULT              "Cult"

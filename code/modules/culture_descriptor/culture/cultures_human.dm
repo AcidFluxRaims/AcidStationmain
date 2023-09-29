@@ -122,6 +122,14 @@
 	economic_power = 0.9
 	language = LANGUAGE_SPACER
 
+/decl/cultural_info/culture/human/tersten
+	name = CULTURE_HUMAN_TERSTEN
+	description = "You were born on Tersten, a large former penal colony turned border world ruled by SolGov. Farming, building materials, and electronics are the main exports.\
+	You hail either from Freetown, Moore, South Harelstone, Midland, or New San Antonio and the rural areas around them. Being an isolated border world, it saw much utilization\
+	from SolGov... as well as exploitation."
+	economic_power = 0.8
+	language = LANGUAGE_SPACER
+
 /decl/cultural_info/culture/human/confederate
 	name = CULTURE_HUMAN_CONFED
 	description = "You are from Komirov (not Earth), in the Gilgamesh system. The capital world of the United Colonies of Gilgamesh, your people embody what it means to be a part of the UCG. \

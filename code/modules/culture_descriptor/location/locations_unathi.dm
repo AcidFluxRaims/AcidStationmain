@@ -6,3 +6,11 @@
 	back to life, or to become strong enough that they don't have to."
 	ruling_body = "Clan Hegemony"
 	distance = "20 light years"
+
+/decl/cultural_info/location/terstenunathi
+	name = HOME_SYSTEM_TERSTENUNATHI
+	description = "Tersten opened its arms to Unathi in the wake of the golden age on that world. Though the clans still enjoy a great deal of autonomy on the human-centric planet, \
+	the two peoples share a great deal of cooperation with each other due to the nature of life there. The Tersten way of life has meshed well with Sinta culture and traditions, \
+	and as such the races enjoy a good relationship with each other."
+	ruling_body = "Clan Hegemony"
+	distance = "52 light years"

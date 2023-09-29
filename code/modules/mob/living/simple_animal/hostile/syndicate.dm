@@ -12,8 +12,8 @@
 	response_harm = "hits"
 	speed = 4
 	stop_automated_movement_when_pulled = 0
-	maxHealth = 100
-	health = 100
+	maxHealth = 200
+	health = 200
 	harm_intent_damage = 5
 	melee_damage_lower = 10
 	melee_damage_upper = 10
@@ -37,7 +37,7 @@
 
 /mob/living/simple_animal/hostile/syndicate/melee
 	melee_damage_lower = 20
-	melee_damage_upper = 25
+	melee_damage_upper = 30
 	icon_state = "syndicatemelee"
 	icon_living = "syndicatemelee"
 	attacktext = "slashed"

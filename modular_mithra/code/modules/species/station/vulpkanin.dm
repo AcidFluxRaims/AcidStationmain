@@ -21,6 +21,18 @@
 
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is. - cebu | what the hell does it even do -tori | Basically it just defines where you can hit them for massive (pain) damage. An entire variable dedicated to nutshots. -cebu
 
+	slowdown = -1
+	burn_mod = 1.4
+
+	cold_level_1 = 200 //Default 260 - Lower is better
+	cold_level_2 = 150 //Default 200
+	cold_level_3 = 100 //Default 120
+
+	heat_level_1 = 360 //Default 360 - Higher is better
+	heat_level_2 = 400 //Default 400
+	heat_level_3 = 800 //Default 1000
+
+
 
 	available_cultural_info = list( //I can do ANYTHING! Placeholder until the loreboys come and figure out what Vulpkanin do | did it -bear
 		TAG_CULTURE = list(

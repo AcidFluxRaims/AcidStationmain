@@ -27,11 +27,11 @@
 	if(running)
 		if(footstep >= 1)
 			footstep = 0
-			playsound(src, "sound/machines/breacherrun.ogg", 25, 1) // this will get annoying very fast.
+			playsound(src, "sound/machines/breacherrun.ogg", 20, 1) // this will get annoying very fast.
 		else
 			footstep++
 	else
-		playsound(src, "sound/machines/breacherstep.ogg", 12, 1)
+		playsound(src, "sound/machines/breacherstep.ogg", 10, 1)
 
 /obj/item/weapon/rig/unathi/fancy
 	name = "Unathi breacher chassis control module"
